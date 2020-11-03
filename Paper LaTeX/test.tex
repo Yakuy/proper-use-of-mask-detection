@@ -1,0 +1,84 @@
+\documentclass{article}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm
+ }
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=2.5cm, minimum height=1cm, text centered, draw=black, fill=blue!30, text width=2cm]
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\tikzstyle{double-arrow} = [thick,<->,>=stealth]
+
+\usepackage[backend=biber]{biblatex}
+\addbibresource{daftar_pustaka.bib}
+\graphicspath{ {./images/} }
+\renewcommand*\contentsname{Daftar Isi}
+\renewcommand{\figurename}{Figur}
+\renewcommand{\tablename}{Tabel}
+
+\begin{document}
+  \begin{titlepage}
+    \begin{center}
+      
+      \null
+      {
+      \huge \bfseries MAKALAH}\\
+      [1cm]
+      {\LARGE Deteksi COVID-19 pada Dataset X-Ray Dada dengan Metode Capsule Neural Network (CapsNet)}\\
+          
+      \vspace{2cm}
+
+      \begin{figure}[H]
+        \centering
+        \includegraphics[width=200px]{/logo/Lambang UGM.jpg}
+      \end{figure}
+          
+      \vspace{3cm}
+    
+      {\Large 
+      Disusun oleh Tim \bfseries Yakuy 2} {\Large :\\
+      \vspace{0.5cm}
+      Ardacandra Subiantoro (18/427572/PA/18532)\\
+      Arief Pujo Arianto (18/430253/PA/18766)\\
+      Chrystian (18/430257/PA/18770)\\
+      }
+
+
+      \vspace{2cm}
+
+      {\normalsize \bfseries
+      PROGRAM STUDI S1 ILMU KOMPUTER\\
+      DEPARTEMEN ILMU KOMPUTER DAN ELEKTRONIKA\\
+      FAKULTAS MATEMATIKA DAN ILMU PENGETAHUAN ALAM\\
+      UNIVERSITAS GADJAH MADA\\
+      YOGYAKARTA\\
+      \vspace{0.2cm}
+      2020
+      }
+            
+    \end{center}
+  \end{titlepage}
+
+  \pagenumbering{gobble}
+
+  \newpage
+  \pagenumbering{arabic}
+  \textbf{Abstrak.} Pandemi COVID-19 membawa banyak dampak negatif bagi Indonesia dan seluruh dunia, sehingga penting untuk mempunyai sarana untuk mendeteksi dengan cepat dan akurat pasien yang terinfeksi COVID-19. Gambar X-Ray dada pasien dapat membantu untuk mendeteksi apakah pasien terinfeksi COVID-19 atau tidak. Kami melatih model CapsNet untuk dapat mengklasifikasikan X-Ray dada yang terinfeksi dengan virus COVID-19. Model dilatih dengan 6310 gambar X-Ray dada yang terbagi menjadi tiga kelas : Normal, Pneumonia, dan Covid-19. Kelebihan CapsNet dibanding model \textit{Convolutional Neural Network} tradisional adalah antara lain : \textit{viewpoint invariance}, parameter lebih sedikit, dan generalisasi baik pada sudut pandang baru. Hasil yang diperoleh dari model ini adalah akurasi validasi 0.9556 dan akurasi tes 0.9429. Harapan kami adalah model dapat digunakan untuk menyediakan opini kedua untuk memverifikasi hasil dari bentuk-bentuk tes deteksi COVID-19 lain, dan menyediakan sarana untuk mendeteksi COVID-19 di tempat-tempat yang kekurangan alat tes.
+  \newpage
+  \tableofcontents
+  \newpage
+  \section{Pendahuluan}
+\end{document}
