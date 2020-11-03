@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import pandas as pd
 import time
 from imutils.video import FPS, WebcamVideoStream
 import torchvision
@@ -7,13 +8,29 @@ import torch
 from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 from torchvision.models.detection.mask_rcnn import MaskRCNNPredictor
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+COLORS = [(255, 0, 0), (0, 255, 0), (0, 0, 255)]
 
 print("GPU CUDA :", torch.cuda.is_available())
 def startWebCam(model):
+    def draw_predictions(annotation):
+        for box in annotation:
+            if(len(box['boxes'])<1):
+                break
+            for cord in box['boxes']:
+                xmin, ymin, xmax, ymax = cord
+
+                # Create a Rectangle patch
+                cv2.rectangle(frame,
+                                (int(xmin), int(ymin)),
+                                (int(xmax), int(ymax)),
+                                COLORS[0], 2)
+
     def predict(frame):
         #height, width = frame.shape[:2]
         x = torch.from_numpy(np.expand_dims(np.transpose(frame, (2, 0, 1)), axis=0)).float().cuda()
         y = model(x) # forward pass
+        # print(y)
+        draw_predictions(y)
 
 
     stream = WebcamVideoStream(src=0).start()  # default camera
@@ -23,6 +40,7 @@ def startWebCam(model):
     while True:
         # grab next frame
         frame = stream.read()
+        frame = frame/255
         key = cv2.waitKey(1) & 0xFF
 
         # update FPS counter
