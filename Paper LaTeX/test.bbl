@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
+  \datalist[entry]{none/global//global/global}
     \entry{zuraya}{online}{}
       \name{author}{1}{}{%
         {{hash=19d6f10594945f2c2f2bf59a16e3e693}{%
@@ -33,8 +33,8 @@
       \strng{authorbibnamehash}{19d6f10594945f2c2f2bf59a16e3e693}
       \strng{authornamehash}{19d6f10594945f2c2f2bf59a16e3e693}
       \strng{authorfullhash}{19d6f10594945f2c2f2bf59a16e3e693}
-      \field{sortinit}{Z}
-      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{(2020)}
@@ -46,6 +46,112 @@
       \verb https://republika.co.id/berita/qdgt5p383/tiga-dampak-besar-pandemi-covid19-bagi-ekonomi-ri
       \endverb
       \keyw{dampak}
+    \endentry
+    \entry{larxel_2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0688ee72bc717ab25bf0619f37cf1ce7}{%
+           family={Larxel},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{0688ee72bc717ab25bf0619f37cf1ce7}
+      \strng{fullhash}{0688ee72bc717ab25bf0619f37cf1ce7}
+      \strng{bibnamehash}{0688ee72bc717ab25bf0619f37cf1ce7}
+      \strng{authorbibnamehash}{0688ee72bc717ab25bf0619f37cf1ce7}
+      \strng{authornamehash}{0688ee72bc717ab25bf0619f37cf1ce7}
+      \strng{authorfullhash}{0688ee72bc717ab25bf0619f37cf1ce7}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Kaggle}
+      \field{month}{5}
+      \field{title}{Face Mask Detection}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.kaggle.com/andrewmvd/face-mask-detection
+      \endverb
+      \verb{url}
+      \verb https://www.kaggle.com/andrewmvd/face-mask-detection
+      \endverb
+    \endentry
+    \entry{NIPS2015_14bfa6bb}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=bb295293acacd54387339079ebbe4ead}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Shaoqing},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6b4b60e909e78633945f3f9c9dc83e01}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Kaiming},
+           giveni={K\bibinitperiod}}}%
+        {{hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f85751488058842b5777c7b4074077b5}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=c294bbcb0687bdb5113cc4c4cd6ebad3}{%
+           family={Cortes},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5fa5574879f8e77bee73db4442b005f7}{%
+           family={Lawrence},
+           familyi={L\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=98056d9ddecda0076a31a183e3e69326}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0ef91066dee98e654f9aebd57da00647}{%
+           family={Sugiyama},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=36b98b7ab533936cf1b5716148de704f}{%
+           family={Garnett},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates, Inc.}%
+      }
+      \strng{namehash}{f086ca4da3e532e8a41cb758ea461825}
+      \strng{fullhash}{008a132af3e2d4ff15eb01a8fb4b005c}
+      \strng{bibnamehash}{f086ca4da3e532e8a41cb758ea461825}
+      \strng{authorbibnamehash}{f086ca4da3e532e8a41cb758ea461825}
+      \strng{authornamehash}{f086ca4da3e532e8a41cb758ea461825}
+      \strng{authorfullhash}{008a132af3e2d4ff15eb01a8fb4b005c}
+      \strng{editorbibnamehash}{f981a0b37ac43bd0fc3784cbcce306be}
+      \strng{editornamehash}{f981a0b37ac43bd0fc3784cbcce306be}
+      \strng{editorfullhash}{95e40444732d7905041fa015b18cfa44}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks}
+      \field{volume}{28}
+      \field{year}{2015}
+      \field{pages}{91\bibrangedash 99}
+      \range{pages}{9}
+      \verb{urlraw}
+      \verb https://proceedings.neurips.cc/paper/2015/file/14bfa6bb14875e45bba028a21ed38046-Paper.pdf
+      \endverb
+      \verb{url}
+      \verb https://proceedings.neurips.cc/paper/2015/file/14bfa6bb14875e45bba028a21ed38046-Paper.pdf
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

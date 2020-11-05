@@ -7,13 +7,26 @@ import torchvision
 import torch
 from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 from torchvision.models.detection.mask_rcnn import MaskRCNNPredictor
+
+import threading
+
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 COLORS = [(255, 0, 0), (0, 255, 0), (0, 0, 255)]
 FONT = cv2.FONT_HERSHEY_SIMPLEX
+frame = None
+annotation = None
+active = True
 
 print("GPU CUDA :", torch.cuda.is_available())
 def startWebCam(model):
-    def draw_predictions(annotation):
+    
+
+    def draw_predictions():
+        global frame, annotation
+
+        if annotation is None:
+            return
+
         for box in annotation:
             if(len(box['boxes'])<1):
                 break
@@ -41,38 +54,50 @@ def startWebCam(model):
                 cv2.putText(frame, label, (int(xmin), int(ymin)),
                             FONT, 0.4, color, 1, cv2.LINE_AA)
 
-    def predict(frame):
-        #height, width = frame.shape[:2]
-        x = torch.from_numpy(np.expand_dims(np.transpose(frame, (2, 0, 1)), axis=0)).float().cuda()
-        y = model(x) # forward pass
-        print(y)
-        draw_predictions(y)
+    def predict():
+        global frame, annotation, active
+        time.sleep(4.0)
+        while active:
+            #height, width = frame.shape[:2]
+            #print(frame)
+            x = torch.from_numpy(np.expand_dims(np.transpose(frame, (2, 0, 1)), axis=0)).float()
+            annotation = model(x) # forward pass
+            # print(y)
+            # draw_predictions(y)
 
-    
-    stream = WebcamVideoStream(src=0).start()  # default camera
-    time.sleep(1.0)
-    # start fps timer
-    # loop over frames from the video file stream
-    while True:
-        # grab next frame
-        frame = stream.read()
-        frame = frame/255
-        key = cv2.waitKey(1) & 0xFF
+    def update_stream():
+        global frame, active
+        stream = WebcamVideoStream(src=0).start()  # default camera
+        time.sleep(1.0)
+        # start fps timer
+        # loop over frames from the video file stream
+        while True:
+            # grab next frame
+            frame = stream.read()
+            frame = frame/255
+            key = cv2.waitKey(1) & 0xFF
 
-        # update FPS counter
-        fps.update()
-        predict(frame)
+            # update FPS counter
+            #fps.update()
+            draw_predictions()
 
-        # keybindings for display
-        if key == ord('p'):  # pause
-            while True:
-                key2 = cv2.waitKey(1) or 0xff
-                cv2.imshow('frame', frame)
-                if key2 == ord('p'):  # resume
-                    break
-        cv2.imshow('frame', frame)
-        if key == 27:  # exit
-            break
+            # keybindings for display
+            if key == ord('p'):  # pause
+                while True:
+                    key2 = cv2.waitKey(1) or 0xff
+                    cv2.imshow('frame', frame)
+                    if key2 == ord('p'):  # resume
+                        break
+            cv2.imshow('frame', frame)
+            if key == 27:  # exit
+                active = False
+                break
+
+    t1=threading.Thread(target=update_stream)
+    t2=threading.Thread(target=predict)
+
+    t1.start()
+    t2.start()
 
 def get_model_instance_segmentation(num_classes):
         # load an instance segmentation model pre-trained pre-trained on COCO
@@ -86,19 +111,22 @@ def get_model_instance_segmentation(num_classes):
 
 if __name__ == '__main__':
     model = get_model_instance_segmentation(4)
-    model.load_state_dict(torch.load("../model/weights/model_with_no_mask.pth"))
+    model.load_state_dict(torch.load("../model/weights/0511-30.pth"))
+
+#    model.load_state_dict(torch.load("../model/weights/model_with_no_mask.pth"))
     model.eval()
-    model.to(device)
+    #model.to(device)
     torch.backends.cudnn.benchmark = True
 
     print("LOG : Load Weight Successfully")
-    fps = FPS().start()
+    #fps = FPS().start()
     startWebCam(model)
     # stop the timer and display FPS information
-    fps.stop()
+    #fps.stop()
 
-    print("[INFO] elasped time: {:.2f}".format(fps.elapsed()))
-    print("[INFO] approx. Prediction per second: {:.2f}".format(fps.fps()))
+    #print("[INFO] elasped time: {:.2f}".format(fps.elapsed()))
+    #print("[INFO] approx. Prediction per second: {:.2f}".format(fps.fps()))
 
     # cleanup
     cv2.destroyAllWindows()
+    

@@ -1,17 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'test.blg'
-[104] biber-MSWIN64:322> INFO - === 
-[132] Biber.pm:415> INFO - Reading 'test.bcf'
-[326] Biber.pm:943> INFO - Found 1 citekeys in bib section 0
-[351] Biber.pm:4256> INFO - Processing section 0
-[351] Utils.pm:75> INFO - Globbing data source 'daftar_pustaka.bib'
-[364] Utils.pm:91> INFO - Globbed data source 'daftar_pustaka.bib' to daftar_pustaka.bib
-[383] Biber.pm:4455> INFO - Looking for bibtex format file 'daftar_pustaka.bib' for section 0
-[389] bibtex.pm:1653> INFO - LaTeX decoding ...
-[414] bibtex.pm:1471> INFO - Found BibTeX data source 'daftar_pustaka.bib'
-[438] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[438] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[438] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[438] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[447] bbl.pm:652> INFO - Writing 'test.bbl' with encoding 'UTF-8'
-[448] bbl.pm:755> INFO - Output to test.bbl
+[107] biber-MSWIN64:322> INFO - === 
+[135] Biber.pm:415> INFO - Reading 'test.bcf'
+[315] Biber.pm:943> INFO - Found 3 citekeys in bib section 0
+[340] Biber.pm:4256> INFO - Processing section 0
+[341] Utils.pm:75> INFO - Globbing data source 'daftar_pustaka.bib'
+[354] Utils.pm:91> INFO - Globbed data source 'daftar_pustaka.bib' to daftar_pustaka.bib
+[377] Biber.pm:4455> INFO - Looking for bibtex format file 'daftar_pustaka.bib' for section 0
+[381] bibtex.pm:1653> INFO - LaTeX decoding ...
+[390] bibtex.pm:1471> INFO - Found BibTeX data source 'daftar_pustaka.bib'
+[420] Utils.pm:304> WARN - month field 'May' in entry 'larxel_2020' is not an integer - this will probably not sort properly.
+[461] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[461] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[461] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[461] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[473] bbl.pm:652> INFO - Writing 'test.bbl' with encoding 'UTF-8'
+[476] bbl.pm:755> INFO - Output to test.bbl
+[478] Biber.pm:128> INFO - WARNINGS: 1

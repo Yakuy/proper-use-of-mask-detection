@@ -26,12 +26,15 @@
 \tikzstyle{arrow} = [thick,->,>=stealth]
 \tikzstyle{double-arrow} = [thick,<->,>=stealth]
 
-\usepackage[backend=biber]{biblatex}
+
+%citation
+\usepackage[backend=biber, sorting=none]{biblatex}
 \addbibresource{daftar_pustaka.bib}
 \graphicspath{ {./images/} }
 \renewcommand*\contentsname{Daftar Isi}
 \renewcommand{\figurename}{Figur}
-\renewcommand{\tablename}{Tabel}
+
+
 
 \begin{document}
   \begin{titlepage}
@@ -88,18 +91,33 @@
   	\subsection{Latar Belakang}
 	  	Meskipun berbagai penanganan sudah dilakukan tetapi hingga hari ini jumlah kasus COVID-19 terus meningkat. Jumlah kasus total COVID-19 di seluruh dunia sudah mencapai lebih dari 48 juta kasus, dengan lebih dari 1,2 juta kematian akibat COVID-19. Kasus COVID-19 di Indonesia sudah mencapai lebih dari 400 ribu dengan lebih dari 14 ribu kematian. Dampak negatif dari pandemi COVID-19 ini sangat terasa di Indonesia. Direktur Jenderal Pajak Kementerian Keuangan (Kemenkeu) Suryo Utomo membagi dampak pandemi COVID-19 menjadi tiga garis besar \cite{zuraya}. Dampak pertama adalah membuat konsumsi rumah tangga atau daya beli yang merupakan penopang 60 persen terhadap ekonomi jatuh cukup dalam. Hal ini dibuktikan dengan data dari BPS yang mencatatkan bahwa konsumsi rumah tangga turun dari 5,02 persen pada kuartal I 2019 ke 2,84 persen pada kuartal I tahun ini. Dampak kedua yaitu pandemi menimbulkan adanya ketidakpastian yang berkepanjangan sehingga investasi ikut melemah dan berimplikasi pada terhentinya usaha. Dampak ketiga adalah seluruh dunia mengalami pelemahan ekonomi sehingga menyebabkan harga komoditas turun dan ekspor Indonesia ke beberapa negara juga terhenti.
 	  	
-	  	\par Dengan melemahnya ekonomi di Indonesia ini, banyak perusahaan juga sudah mulai untuk membuka kembali bisnis mereka seperti semula. Berbagai upaya pengawasan pun dilakukan agar setiap orang dapat beraktivitas seperti semula dengan aman tanpa takut untuk tertular COVID-19. Tetapi meskipun berbagai cara pengawasan sudah dilakukan, masih banyak orang yang tidak mematuhi aturan dan tetap beraktivitas seperti biasa. Perlunya pengawasan yang lebih ketat lagi adalah salah satu cara agar semua orang yang beraktivitas mematuhi aturan yang berlaku untuk mengurangi resiko terrularnya COVID-19.
+	  	\par Dengan melemahnya ekonomi di Indonesia ini, banyak perusahaan juga sudah mulai untuk membuka kembali bisnis mereka seperti semula. Berbagai upaya pengawasan pun dilakukan agar setiap orang dapat beraktivitas seperti semula dengan aman tanpa adanya ketakutan tertular COVID-19. Tetapi meskipun berbagai cara pengawasan sudah dilakukan, masih banyak orang yang tidak mematuhi aturan dan tetap beraktivitas seperti biasa. Perlunya banyak pengawasan untuk memperingatkan kembali aturan yang ada di era \textit{new normal} ini adalah salah satu cara agar semua dapat beraktivitas kembali seperti semula serta mengurangi resiko tertular COVID-19.
+	  	
+	  	\par Tetapi untuk mewujudkan era \textit{new normal} ini dengan baik dan efektif, dibutuhkan pengawasan serta himbauan peraturan era \textit{new normal} ini secara skala besar dan umum sehingga dibutuhkannya banyak sekali tenaga kerja. Namun menggunakan tenaga manusia bukanlah jawaban yang tepat karena tidak efesien serta sangat sulit dan juga menyita banyak waktu apabila tenaga manusia ini mengawasi serta menghimbau setiap orang yang ada.
   	\subsection{Rumusan Masalah}
+  		Berdasarkan latar belakang tersebut permasalahan utama yang akan ditelusuri ialah :
+  		\begin{enumerate}
+  			\item Bagaimana penambangan data dapat membantu mewujudkan dan menegakkan aturan pada era \textit{new normal} untuk dapat mengurangi penyebaran COVID-19 yang ada ?
+  			\item Bagaimana cara model dapat mendeteksi serta membedakan pemakaian masker yang baik dan benar ?
+
+  		\end{enumerate}
   	\subsection{Batasan Masalah}
   		Batasan masalah yang akan kami gunakan adalah sebagai berikut :
   		\begin{itemize}
-  			\item Dataset yang akan digunakan dibatasi pada Kaggle Face Mask Detection milik Larxel.
+  			\item Dataset yang akan digunakan dibatasi pada Kaggle Face Mask Detection milik Larxel\cite{larxel_2020}.
   			\item Jenis gambar yang akan diklasifikasi dibatasi pada memakai masker, tidak memakai masker, dan memakai masker yang tidak benar.
-  			\item Metode penambangan data yang akan kami gunakan adalah Faster R-CNN.
+  			\item Metode penambangan data yang akan kami gunakan adalah Real-time Object Detection dengan Arsitektur Faster R-CNN\cite{NIPS2015_14bfa6bb}.
   		\end{itemize}
   \section{Tujuan dan Manfaat}
+  		\par Tujuan utama, kami mengusulkan menggunakan model Object Detection dengan arsitektur Faster R-CNN untuk membantu mengawasi dan menghimbau penggunaan masker yang benar di tempat umum. Object Detection dengan menggunakan Faster R-CNN ini diharapkan dapat dengan baik membedakan dan mengklasifikasi penggunaan masker dengan baik dan juga dapat secara cepat melakukan klasifikasi tersebut.
+  		
+  		\par Tujuan kedua, dari hasil penambangan data tujuan utama kami, kami bertujuan untuk langsung memakai model tersebut diimplementasikan langsung dengan teknologi serta kesiapa infrastruktur yang ada. Implementasi ini diharapkan dapat membantu tenaga manusia untuk dapat secara otomatis memperingatkan selalu penggunaan masker di tempat umum supaya era \textit{new normal} dapat terwujudkan. Manfaat yang kami harapkan adalah peningkatan kesadaran penggunaan masker dan kemudahan bagi tenaga manusia untuk mengawasi penggunaan masker.
   \section{Metode}
+  	\subsection{Pembelajaran Model}
+  	\subsection{Implementasi Model}
   \section{Hasil}
   \section{Kesimpulan}
   \section{Lampiran}
+  \newpage
+  \printbibliography[title={Referensi}]
 \end{document}

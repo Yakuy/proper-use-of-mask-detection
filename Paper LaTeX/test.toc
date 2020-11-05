@@ -10,10 +10,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Tujuan dan Manfaat}{3}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Metode}{3}{section.3}%
+\contentsline {section}{\numberline {3}Metode}{4}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Hasil}{3}{section.4}%
+\contentsline {subsection}{\numberline {3.1}Pembelajaran Model}{4}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Kesimpulan}{3}{section.5}%
+\contentsline {subsection}{\numberline {3.2}Implementasi Model}{4}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Lampiran}{3}{section.6}%
+\contentsline {section}{\numberline {4}Hasil}{4}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Kesimpulan}{4}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Lampiran}{4}{section.6}%
