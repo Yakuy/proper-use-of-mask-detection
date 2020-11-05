@@ -9,6 +9,7 @@ from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 from torchvision.models.detection.mask_rcnn import MaskRCNNPredictor
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 COLORS = [(255, 0, 0), (0, 255, 0), (0, 0, 255)]
+FONT = cv2.FONT_HERSHEY_SIMPLEX
 
 print("GPU CUDA :", torch.cuda.is_available())
 def startWebCam(model):
@@ -16,20 +17,32 @@ def startWebCam(model):
         for box in annotation:
             if(len(box['boxes'])<1):
                 break
-            for cord in box['boxes']:
+
+            for i,cord in enumerate(box['boxes']):
                 xmin, ymin, xmax, ymax = cord
+                color = None
+                label = None
 
                 # Create a Rectangle patch
+                if (box['labels'][i]==1):
+                    color = COLORS[0]
+                    label = "With Mask"
+                elif (box['labels'][i]==2):
+                    color = COLORS[1]
+                    label = "With Mask Incorrect"
+
                 cv2.rectangle(frame,
                                 (int(xmin), int(ymin)),
                                 (int(xmax), int(ymax)),
-                                COLORS[0], 2)
+                                color, 1)
+                cv2.putText(frame, label, (int(xmin), int(ymin)),
+                            FONT, 0.4, color, 1, cv2.LINE_AA)
 
     def predict(frame):
         #height, width = frame.shape[:2]
         x = torch.from_numpy(np.expand_dims(np.transpose(frame, (2, 0, 1)), axis=0)).float().cuda()
         y = model(x) # forward pass
-        # print(y)
+        print(y)
         draw_predictions(y)
 
 
@@ -82,7 +95,7 @@ if __name__ == '__main__':
     fps.stop()
 
     print("[INFO] elasped time: {:.2f}".format(fps.elapsed()))
-    print("[INFO] approx. FPS: {:.2f}".format(fps.fps()))
+    print("[INFO] approx. Prediction per second: {:.2f}".format(fps.fps()))
 
     # cleanup
     cv2.destroyAllWindows()
