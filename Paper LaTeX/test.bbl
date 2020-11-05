@@ -1,0 +1,53 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{zuraya}{online}{}
+      \name{author}{1}{}{%
+        {{hash=19d6f10594945f2c2f2bf59a16e3e693}{%
+           family={Zuraya},
+           familyi={Z\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{19d6f10594945f2c2f2bf59a16e3e693}
+      \strng{fullhash}{19d6f10594945f2c2f2bf59a16e3e693}
+      \strng{bibnamehash}{19d6f10594945f2c2f2bf59a16e3e693}
+      \strng{authorbibnamehash}{19d6f10594945f2c2f2bf59a16e3e693}
+      \strng{authornamehash}{19d6f10594945f2c2f2bf59a16e3e693}
+      \strng{authorfullhash}{19d6f10594945f2c2f2bf59a16e3e693}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(2020)}
+      \field{title}{Tiga Dampak Besar Pandemi Covid-19 bagi Ekonomi RI}
+      \verb{urlraw}
+      \verb https://republika.co.id/berita/qdgt5p383/tiga-dampak-besar-pandemi-covid19-bagi-ekonomi-ri
+      \endverb
+      \verb{url}
+      \verb https://republika.co.id/berita/qdgt5p383/tiga-dampak-besar-pandemi-covid19-bagi-ekonomi-ri
+      \endverb
+      \keyw{dampak}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
