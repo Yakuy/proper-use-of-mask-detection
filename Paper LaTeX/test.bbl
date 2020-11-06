@@ -153,6 +153,34 @@
       \verb https://proceedings.neurips.cc/paper/2015/file/14bfa6bb14875e45bba028a21ed38046-Paper.pdf
       \endverb
     \endentry
+    \entry{shilpa_2020}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d2f67141bf23d1a412031a0114059d5d}{%
+           family={Ananth},
+           familyi={A\bibinitperiod},
+           given={Shilpa},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d2f67141bf23d1a412031a0114059d5d}
+      \strng{fullhash}{d2f67141bf23d1a412031a0114059d5d}
+      \strng{bibnamehash}{d2f67141bf23d1a412031a0114059d5d}
+      \strng{authorbibnamehash}{d2f67141bf23d1a412031a0114059d5d}
+      \strng{authornamehash}{d2f67141bf23d1a412031a0114059d5d}
+      \strng{authorfullhash}{d2f67141bf23d1a412031a0114059d5d}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{Faster R-CNN for object detection}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/faster-r-cnn-for-object-detection-a-technical-summary-474c5b857b46
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/faster-r-cnn-for-object-detection-a-technical-summary-474c5b857b46
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
