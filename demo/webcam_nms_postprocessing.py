@@ -5,6 +5,7 @@ import time
 from imutils.video import FPS, WebcamVideoStream
 import torchvision
 import torch
+from torchvision.ops import nms
 from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 from torchvision.models.detection.mask_rcnn import MaskRCNNPredictor
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
@@ -14,12 +15,18 @@ FONT = cv2.FONT_HERSHEY_SIMPLEX
 print("GPU CUDA :", torch.cuda.is_available())
 def startWebCam(model):
     def draw_predictions(annotation):
+        keep_idx = nms(annotation[0]['boxes'], annotation[0]['scores'], iou_threshold=0.5)
 
         for box in annotation:
             if(len(box['boxes'])<1):
                 break
             
+            idx = 0
             for i,cord in enumerate(box['boxes']):
+                if(idx not in keep_idx):
+                   continue
+                idx+=1
+
                 xmin, ymin, xmax, ymax = cord
                 color = None
                 label = None

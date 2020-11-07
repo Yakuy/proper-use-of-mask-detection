@@ -1,2 +1,2 @@
-Weight can be downloaded here
-https://drive.google.com/drive/folders/1foYM6KLFT_eY1_IriE8Wy2UKtfaNRLQh?usp=sharing
+Weight can be downloaded from : https://drive.google.com/drive/folders/1foYM6KLFT_eY1_IriE8Wy2UKtfaNRLQh?usp=sharing
+Latest Weight : model_with_no_mask.pth

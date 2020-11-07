@@ -7,7 +7,9 @@ import torchvision
 import torch
 from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 from torchvision.models.detection.mask_rcnn import MaskRCNNPredictor
-
+#   grad_fn=<StackBackward>), 'labels': tensor([2, 3, 1], device='cuda:0'), 'scores': tensor([0.9774, 0.0604, 0.0529]
+#   grad_fn=<StackBackward>), 'labels': tensor([1, 3], device='cuda:0'), 'scores': tensor([0.9533, 0.1024]
+#   grad_fn=<StackBackward>), 'labels': tensor([1, 2, 3, 1], device='cuda:0'), 'scores': tensor([0.8836, 0.8032, 0.2569, 0.2145]
 import threading
 
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
@@ -26,7 +28,7 @@ def startWebCam(model):
 
         if annotation is None:
             return
-
+        
         for box in annotation:
             if(len(box['boxes'])<1):
                 break
@@ -38,11 +40,11 @@ def startWebCam(model):
 
                 # Create a Rectangle patch
                 if (box['labels'][i]==1):
-                    color = COLORS[0]
-                    label = "With Mask"
-                elif (box['labels'][i]==2):
                     color = COLORS[1]
                     label = "Without Mask"
+                elif (box['labels'][i]==2):
+                    color = COLORS[0]
+                    label = "With Mask"
                 elif (box['labels'][i]==3):
                     color = COLORS[2]
                     label = "With Mask Incorrect"
