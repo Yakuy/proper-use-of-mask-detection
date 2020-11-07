@@ -201,6 +201,13 @@
   	\subsection{Implementasi Model}
   \section{Hasil}
   \section{Kesimpulan}
+  	Ketika akan mengimplementasikan model ini maka infrastruktur atau alat yang dibutuhkan adalah sebuah cctv, (setidaknya) sebuah monitor, dan sebuah komputer. Pada hal ini komputer akan berguna sebagai alat untuk menghubungkan cctv dengan monitor dan menjadi tempat untuk model melakukan prediksi kepada gambar input. Kemudian cctv akan berguna menjadi alat untuk mendapatkan gambar input yang kemudian akan diprediksi oleh model. Cctv yang digunakan akan dihubungkan langsung dengan komputer dan gambar input dari cctv akan diproses frame by frame oleh model (Untuk sementara, tolong yg baca ingetin saya edit ini). Setelah itu monitor juga akan dihubungkan dengan komputer, monitor digunakan untuk menampilkan hasil dari input yang diambil dari cctv yang sudah didapatkan hasil prediksinya (ini juga). 
+  	\begin{figure}[H]
+  		\centering
+  		\includegraphics[width=400px]{implementasi/test.jpg}
+  		\caption{Visualisasi Implementasi}
+  	\end{figure}
+	\par Untuk jumlah monitor sendiri tidak terbatas pada satu monitor saja, jumlah monitor dapat disesuaikan dan ditempatkan menyesuaikan dengan kebutuhan pada masing-masing tempat. Dalam monitor nanti gambar yang ditampilkan berdasarkan hasil prediksi setiap orang yang tertangkap dalam cctv akan diberikan bounding box sesuai dengan kategori yang cocok dengan mereka. (abis itu jelasin warna warna tiap kategori tp karena belom tau jadi ingetin nanti). Lalu jika dalam monitor terdapat orang-orang yang tidak menggunakan masker atau menggunakan masker dengan tidak benar maka pengawas/petugas yang berjaga disekitar dapat menegur orang-orang tersebut sesuai dengan kebijakan pada masing-masing tempat.
   \section{Lampiran}
   \newpage
   \printbibliography[title={Referensi}]
