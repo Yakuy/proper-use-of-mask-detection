@@ -286,8 +286,45 @@
 			2 & With Mask           & \textbf{0.8032} \\
 		\end{tabular}
 	\end{table}
-  
+
+  \newpage
   \section{Hasil}
+  
+  \subsection{Hasil Program}
+  \begin{figure}[H]
+	\centering
+	\includegraphics[width=300px]{benchmark/hasil3.png}
+	\caption{Hasil Video Demo dapat dilihat selengkapnya di \href{https://youtu.be/JzUth2ERASE}{youtu.be/JzUth2ERASE}}
+  \end{figure}
+  \par Secara umum Model dari Faster R-CNN sudah sangat baik membedakan orang yang menggunakan masker dengan baik atau tidak. Berdasarkan data dari \textit{dataset training} jenis masker banyak sekali macamnya, secara tidak sengaja program mendeteksi karakter yang memakai masker di background dengan skor lemah. 
+  \subsubsection{Performa Program}
+
+  
+  
+  \begin{figure}[H]
+	\centering
+	\includegraphics[height=50px]{benchmark/hasil1.png}
+	\caption{\textit{screenshot hasil benchmark} dari Program WebCam.}
+  \end{figure}
+
+  \begin{figure}[H]
+	\centering
+	\includegraphics[height=50px]{benchmark/hasil2.png}
+	\caption{\textit{screenshot hasil benchmark} dari Program WebCam dengan Post-processing (nms).}
+  \end{figure}
+
+  \begin{table}[H]
+	\centering
+	\begin{tabular}{lcc}
+	\hline
+	Program                                     & \multicolumn{1}{l}{Waktu Berlalu} & \multicolumn{1}{l}{Rata-rata Prediksi/s} \\ \hline
+	WebCam Faster R-CNN                         & 61.96                             & 3.15                                     \\
+	WebCam Faster R-CNN + Post-processing (nms) & 59.30                             & 3.10                                    
+	\end{tabular}
+	\end{table}
+
+  Dengan menggunakan Nvidia GTX 960 2GB dan Intel® Core™ i5-3470 Processor, hasil \textit{benchmark} menunjukan Faster R-CNN dapat dengan cepat memprediksi input walaupun dengan GPU tahun 2015. Ketika menggunakan Post-processing program membutuhkan komputasi fungsi tambahan membuat rata-rata turun tetapi tidak terlalu signifikan atau sekitar -1.58\% dari program awal. 
+
   \section{Kesimpulan}
   	Ketika akan mengimplementasikan model ini maka infrastruktur atau alat yang dibutuhkan adalah sebuah cctv, (setidaknya) sebuah monitor, dan sebuah komputer. Pada hal ini komputer akan berguna sebagai alat untuk menghubungkan cctv dengan monitor dan menjadi tempat untuk model melakukan prediksi kepada gambar input. Kemudian cctv akan berguna menjadi alat untuk mendapatkan gambar input yang kemudian akan diprediksi oleh model. Cctv yang digunakan akan dihubungkan langsung dengan komputer dan gambar input dari cctv akan diproses frame by frame oleh model (Untuk sementara, tolong yg baca ingetin saya edit ini). Setelah itu monitor juga akan dihubungkan dengan komputer, monitor digunakan untuk menampilkan hasil dari input yang diambil dari cctv yang sudah didapatkan hasil prediksinya (ini juga). 
   	\begin{figure}[H]
