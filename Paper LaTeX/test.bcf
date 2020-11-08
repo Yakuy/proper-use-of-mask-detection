@@ -2186,6 +2186,7 @@
     <bcf:citekey order="2">larxel_2020</bcf:citekey>
     <bcf:citekey order="3">NIPS2015_14bfa6bb</bcf:citekey>
     <bcf:citekey order="4">shilpa_2020</bcf:citekey>
+    <bcf:citekey order="5">nms_pytorch</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

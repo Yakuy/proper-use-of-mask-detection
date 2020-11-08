@@ -111,7 +111,7 @@
   \section{Tujuan dan Manfaat}
   		\par Tujuan utama, kami mengusulkan menggunakan model Object Detection dengan arsitektur Faster R-CNN untuk membantu mengawasi dan menghimbau penggunaan masker yang benar di tempat umum. Object Detection dengan menggunakan Faster R-CNN ini diharapkan dapat dengan baik membedakan dan mengklasifikasi penggunaan masker dengan baik dan juga dapat secara cepat melakukan klasifikasi tersebut.
   		
-  		\par Tujuan kedua, dari hasil penambangan data tujuan utama kami, kami bertujuan untuk langsung memakai model tersebut diimplementasikan langsung dengan teknologi serta kesiapa infrastruktur yang ada. Implementasi ini diharapkan dapat membantu tenaga manusia untuk dapat secara otomatis memperingatkan selalu penggunaan masker di tempat umum supaya era \textit{new normal} dapat terwujudkan. Manfaat yang kami harapkan adalah peningkatan kesadaran penggunaan masker dan kemudahan bagi tenaga manusia untuk mengawasi penggunaan masker.
+  		\par Tujuan kedua, dari hasil penambangan data kami bertujuan untuk langsung memakai model tersebut diimplementasikan langsung dengan teknologi serta kesiapa infrastruktur yang ada. Implementasi ini diharapkan dapat membantu tenaga manusia untuk dapat secara otomatis memperingatkan selalu penggunaan masker di tempat umum supaya era \textit{new normal} dapat terwujudkan. Manfaat yang kami harapkan adalah peningkatan kesadaran penggunaan masker dan kemudahan bagi tenaga manusia untuk mengawasi penggunaan masker.
   \section{Metode}
   	\subsection{Pembelajaran Model}
   	 \subsubsection{Faster R-CNN}
@@ -198,7 +198,75 @@
    		\caption{Hasil Faster R-CNN dengan Backbone VGG}
    	\end{figure}
    	
-  	\subsection{Implementasi Model}
+   	\newpage
+  	\subsection{Implementasi Weight dari Faster R-CNN Model}
+  	\subsubsection{Perangkat Uji Coba}
+	\par Hasil output pembelajaran Faster R-CNN adalah \textit{weights} yang dapat digunakan secara langsung atau untuk memuat model dan memprediksi data baru dengan cepat. Untuk mengimplementasikan model secara langsung atau \textit{realtime} kami menggunakan perangkat keras : CPU Intel(R) i5-3470, GPU Nvidia GTX 960 2GB. Perangkat lunak dan \textit{libraries} : Python 3.7.7, mutils, OpenCV, pytorch, torchvision, numpy, pandas, dan ManyCam. 
+	
+	\par Dalam percobaan ini kami membuat 2 model program yang memiliki keunggulan masing-masing.
+	\subsubsection{Program WebCam Pendeteksi Masker}
+	\begin{figure}[H]
+  		\centering
+  		\includegraphics[width=200px]{arsitektur/Sequential Model.png}
+  		\caption{Program WebCam Pendeteksi Masker Flowchart}
+	\end{figure}
+	Tugas dari program ini secara umum dapat dibagi menjadi 2 bagian : \\
+	{\textbf{1. Proses Memuat \textit{Weights}}}
+	\par Sebelum program dapat melakukan prediksi, model harus di inisialisasi atau dibuat terlebih dahulu dan selanjutnya model akan dimuat dengan \textit{Weights} yang ada dari hasil proses pembelajaran \textit{finetuning} Faster R-CNN.\\
+	{\textbf{2. Looping ketika input WebCam Aktif}}
+	\par Setelah model sudah siap untuk melakukan prediksi, akan dilakukan selama WebCam aktif maka program akan membaca input yang berasal dari WebCam tersebut dan menyampaikan input tersebut kepada model. Model akan melakukan \textit{Forward Pass} menghasilkan prediksi, informasi dari prediksi ini (labels, scores, boxes) akan digambarkan pada layar, setelah proses ini selesai maka program akan mengulang mengambil input baru sampai program di tutup oleh pengguna.\\
+	\par Keuntungan dari program ini adalah kesederhanaannya, program ini mengandung seluruh elemen dasar yang dibutuhkan untuk membuat program deteksi \textit{realtime}.
+	% \subsubsection{WebCam with Mutlithreaded Model}
+  	% \begin{figure}[H]
+  	% 	\centering
+  	% 	\includegraphics[width=400px]{arsitektur/Multithread Model.png}
+  	% 	\caption{WebCam with Mutlithreaded Model Flowchart}
+  	% \end{figure}
+  	% Berdasarkan program dasar, program ini dapat dioptimalisasi performanya untuk terlihat lebih lancar dijalankan apabila update dari frame tidak bergantung atau terblokir menunggu hasil dari prediksi yang memakan cukup banyak waktu. Dengan menggunakan \textit{multithreading} prediksi dapat dilakukan secara asinkronus, membuat program terlihat lebih lancar. Dalam kasus ini kita dapat meminta \textit{thread 1} untuk melakukan input untuk prediksi dan langsung menggambarkan prediksi yang saat itu ada, sehingga \textit{thread 2} dapat di tugaskan untuk mengatur GPU membuat prediksi secepatnya. 
+  	\subsubsection{Program WebCam Pendeteksi Masker dengan Post-processing}
+  	\begin{figure}[H]
+  		\centering
+  		\includegraphics[width=200px]{arsitektur/Sequential with Postprocessing.png}
+  		\caption{Program WebCam Pendeteksi Masker dengan Post-processing Flowchart}
+	\end{figure}
+	
+	Kami mengusulkan program menggunakan post-processing \textit{non-maximum suppression} \cite{nms_pytorch} untuk memperjelas prediksi yang memiliki \textit{overlapping bounding box} dengan mengeliminasikan atau tidak memakai prediksi yang memiliki skor rendah dalam kotak yang sama. Hal ini terjadi karena perbedaan orang "memakai masker", "tidak memakai masker", dan "tidak memakai masker dengan baik" memiliki beberapa fitur yang sama seperti memiliki mata, bentuk wajah hal ini menyebabkan label terdeteksi tetapi memiliki skor yang rendah.\\
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=250px]{../demo/Results/implementation/raw_prediction_nms0_labeled.png}
+		\caption{Hasil prediksi program.}
+	\end{figure}
+	{\large{\textbf{Hasil Prediksi}}}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{clc}
+		\hline
+		\textbf{i} & \textbf{Label}               & \textbf{Score}  \\ \hline
+		1 & Without Mask        & \textbf{0.8836} \\
+		2 & With Mask           & \textbf{0.8032} \\
+		3 & With Mask Incorrect & 0.2569 \\
+		4 & Without Mask        & 0.2145
+		\end{tabular}
+	\end{table}
+	\newpage
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=250px]{../demo/Results/implementation/with_nms0.png}
+		\caption{Hasil prediksi program dengan non-maximum suppression.}
+  	\end{figure}
+	{\large{\textbf{Hasil Prediksi Menggunakan Post-processing}}}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{clc}
+			\hline
+			\textbf{i} & \textbf{Label}               & \textbf{Score}  \\ \hline
+			1 & Without Mask        & \textbf{0.8836} \\
+			2 & With Mask           & \textbf{0.8032} \\
+		\end{tabular}
+	\end{table}
+  
   \section{Hasil}
   \section{Kesimpulan}
   	Ketika akan mengimplementasikan model ini maka infrastruktur atau alat yang dibutuhkan adalah sebuah cctv, (setidaknya) sebuah monitor, dan sebuah komputer. Pada hal ini komputer akan berguna sebagai alat untuk menghubungkan cctv dengan monitor dan menjadi tempat untuk model melakukan prediksi kepada gambar input. Kemudian cctv akan berguna menjadi alat untuk mendapatkan gambar input yang kemudian akan diprediksi oleh model. Cctv yang digunakan akan dihubungkan langsung dengan komputer dan gambar input dari cctv akan diproses frame by frame oleh model (Untuk sementara, tolong yg baca ingetin saya edit ini). Setelah itu monitor juga akan dihubungkan dengan komputer, monitor digunakan untuk menampilkan hasil dari input yang diambil dari cctv yang sudah didapatkan hasil prediksinya (ini juga). 

@@ -6,7 +6,10 @@
 \BOOKMARK [1][-]{section.3}{Metode}{}% 6
 \BOOKMARK [2][-]{subsection.3.1}{Pembelajaran Model}{section.3}% 7
 \BOOKMARK [3][-]{subsubsection.3.1.1}{Faster R-CNN}{subsection.3.1}% 8
-\BOOKMARK [2][-]{subsection.3.2}{Implementasi Model}{section.3}% 9
-\BOOKMARK [1][-]{section.4}{Hasil}{}% 10
-\BOOKMARK [1][-]{section.5}{Kesimpulan}{}% 11
-\BOOKMARK [1][-]{section.6}{Lampiran}{}% 12
+\BOOKMARK [2][-]{subsection.3.2}{Implementasi Weight dari Faster R-CNN Model}{section.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Perangkat Uji Coba}{subsection.3.2}% 10
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Program WebCam Pendeteksi Masker}{subsection.3.2}% 11
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Program WebCam Pendeteksi Masker dengan Post-processing}{subsection.3.2}% 12
+\BOOKMARK [1][-]{section.4}{Hasil}{}% 13
+\BOOKMARK [1][-]{section.5}{Kesimpulan}{}% 14
+\BOOKMARK [1][-]{section.6}{Lampiran}{}% 15

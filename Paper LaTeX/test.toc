@@ -16,10 +16,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.1.1}Faster R-CNN}{4}{subsubsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Implementasi Model}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Implementasi Weight dari Faster R-CNN Model}{8}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Hasil}{7}{section.4}%
+\contentsline {subsubsection}{\numberline {3.2.1}Perangkat Uji Coba}{8}{subsubsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Kesimpulan}{7}{section.5}%
+\contentsline {subsubsection}{\numberline {3.2.2}Program WebCam Pendeteksi Masker}{8}{subsubsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Lampiran}{8}{section.6}%
+\contentsline {subsubsection}{\numberline {3.2.3}Program WebCam Pendeteksi Masker dengan Post-processing}{9}{subsubsection.3.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Hasil}{10}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Kesimpulan}{10}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Lampiran}{11}{section.6}%

@@ -256,11 +256,8 @@ INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT c:\Users\Chrystian\Desktop\Project\Codig-3.0\paper LaTeX\test.toc
 INPUT c:\Users\Chrystian\Desktop\Project\Codig-3.0\paper LaTeX\test.toc
 INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
@@ -285,6 +282,7 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 OUTPUT c:\Users\Chrystian\Desktop\Project\Codig-3.0\paper LaTeX\test.toc
@@ -295,7 +293,83 @@ INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT images\arsitektur\RPN.jpeg
+INPUT .\images\arsitektur\RPN.jpeg
+INPUT .\images\arsitektur\RPN.jpeg
+INPUT .\images\arsitektur\RPN.jpeg
+INPUT .\images\arsitektur\RPN.jpeg
+INPUT images\arsitektur\contoh_anchor.jpeg
+INPUT .\images\arsitektur\contoh_anchor.jpeg
+INPUT .\images\arsitektur\contoh_anchor.jpeg
+INPUT .\images\arsitektur\contoh_anchor.jpeg
+INPUT .\images\arsitektur\contoh_anchor.jpeg
+INPUT images\rumus\training_loss.png
+INPUT .\images\rumus\training_loss.png
+INPUT .\images\rumus\training_loss.png
+INPUT .\images\rumus\training_loss.png
+INPUT .\images\rumus\training_loss.png
+INPUT images\rumus\regression_target.png
+INPUT .\images\rumus\regression_target.png
+INPUT .\images\rumus\regression_target.png
+INPUT .\images\rumus\regression_target.png
+INPUT .\images\rumus\regression_target.png
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\zptmcm7m.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\psyro.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\zptmcm7m.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\psyro.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\zptmcm7y.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\Chrystian\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT images\rumus\regression_target_2.png
+INPUT .\images\rumus\regression_target_2.png
+INPUT .\images\rumus\regression_target_2.png
+INPUT .\images\rumus\regression_target_2.png
+INPUT .\images\rumus\regression_target_2.png
+INPUT images\arsitektur\full_architecture.jpeg
+INPUT .\images\arsitektur\full_architecture.jpeg
+INPUT .\images\arsitektur\full_architecture.jpeg
+INPUT .\images\arsitektur\full_architecture.jpeg
+INPUT .\images\arsitektur\full_architecture.jpeg
+INPUT images\arsitektur\contoh_hasil.png
+INPUT .\images\arsitektur\contoh_hasil.png
+INPUT .\images\arsitektur\contoh_hasil.png
+INPUT .\images\arsitektur\contoh_hasil.png
+INPUT .\images\arsitektur\contoh_hasil.png
+INPUT images\arsitektur\Sequential Model.png
+INPUT .\images\arsitektur\Sequential Model.png
+INPUT .\images\arsitektur\Sequential Model.png
+INPUT .\images\arsitektur\Sequential Model.png
+INPUT .\images\arsitektur\Sequential Model.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT images\arsitektur\Sequential with Postprocessing.png
+INPUT .\images\arsitektur\Sequential with Postprocessing.png
+INPUT .\images\arsitektur\Sequential with Postprocessing.png
+INPUT .\images\arsitektur\Sequential with Postprocessing.png
+INPUT .\images\arsitektur\Sequential with Postprocessing.png
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
+INPUT ..\demo\Results\implementation\raw_prediction_nms0_labeled.png
+INPUT ..\demo\Results\implementation\raw_prediction_nms0_labeled.png
+INPUT ..\demo\Results\implementation\raw_prediction_nms0_labeled.png
+INPUT ..\demo\Results\implementation\raw_prediction_nms0_labeled.png
+INPUT ..\demo\Results\implementation\raw_prediction_nms0_labeled.png
+INPUT ..\demo\Results\implementation\with_nms0.png
+INPUT ..\demo\Results\implementation\with_nms0.png
+INPUT ..\demo\Results\implementation\with_nms0.png
+INPUT ..\demo\Results\implementation\with_nms0.png
+INPUT ..\demo\Results\implementation\with_nms0.png
+INPUT images\implementasi\test.jpg
+INPUT .\images\implementasi\test.jpg
+INPUT .\images\implementasi\test.jpg
+INPUT .\images\implementasi\test.jpg
+INPUT .\images\implementasi\test.jpg
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmrc7t.vf
@@ -306,10 +380,16 @@ INPUT c:\Users\Chrystian\Desktop\Project\Codig-3.0\paper LaTeX\test.out
 INPUT c:\Users\Chrystian\Desktop\Project\Codig-3.0\paper LaTeX\test.run.xml
 OUTPUT c:\Users\Chrystian\Desktop\Project\Codig-3.0\paper LaTeX\test.run.xml
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\base\8r.enc
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmri8a.pfb
