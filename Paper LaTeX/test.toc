@@ -12,20 +12,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Metode}{4}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Pembelajaran Model}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}Dataset}{4}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1}Faster R-CNN}{4}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}Metode Prapemrosesan}{4}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Implementasi Weight dari Faster R-CNN Model}{8}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Konversi ke RGB}{4}{subsubsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Perangkat Uji Coba}{8}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Normalisasi}{4}{subsubsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}Program WebCam Pendeteksi Masker}{8}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Konversi ke PyTorch \textit {Tensor}}{4}{subsubsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3}Program WebCam Pendeteksi Masker dengan Post-processing}{9}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Pembelajaran Model}{5}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Hasil}{10}{section.4}%
+\contentsline {subsubsection}{\numberline {3.3.1}Faster R-CNN}{5}{subsubsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Kesimpulan}{10}{section.5}%
+\contentsline {subsection}{\numberline {3.4}Implementasi Weight dari Faster R-CNN Model}{9}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Lampiran}{11}{section.6}%
+\contentsline {subsubsection}{\numberline {3.4.1}Perangkat Uji Coba}{9}{subsubsection.3.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.4.2}Program WebCam Pendeteksi Masker}{9}{subsubsection.3.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.4.3}Program WebCam Pendeteksi Masker dengan Post-processing}{10}{subsubsection.3.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Hasil}{11}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Kesimpulan}{11}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Lampiran}{12}{section.6}%

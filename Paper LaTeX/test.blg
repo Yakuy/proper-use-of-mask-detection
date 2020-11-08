@@ -1,20 +1,20 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'test.blg'
-[120] biber-MSWIN64:322> INFO - === 
-[266] Biber.pm:415> INFO - Reading 'test.bcf'
-[422] Biber.pm:943> INFO - Found 5 citekeys in bib section 0
-[449] Biber.pm:4256> INFO - Processing section 0
-[450] Utils.pm:75> INFO - Globbing data source 'daftar_pustaka.bib'
-[488] Utils.pm:91> INFO - Globbed data source 'daftar_pustaka.bib' to daftar_pustaka.bib
-[573] Biber.pm:4455> INFO - Looking for bibtex format file 'daftar_pustaka.bib' for section 0
-[583] bibtex.pm:1653> INFO - LaTeX decoding ...
-[600] bibtex.pm:1471> INFO - Found BibTeX data source 'daftar_pustaka.bib'
-[708] Utils.pm:304> WARN - month field 'May' in entry 'larxel_2020' is not an integer - this will probably not sort properly.
-[730] Utils.pm:304> WARN - month field 'August' in entry 'shilpa_2020' is not an integer - this will probably not sort properly.
-[791] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[791] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[791] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[791] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[843] bbl.pm:652> INFO - Writing 'test.bbl' with encoding 'UTF-8'
-[847] bbl.pm:755> INFO - Output to test.bbl
-[853] Biber.pm:128> INFO - WARNINGS: 2
+[81] biber-MSWIN64:322> INFO - === 
+[146] Biber.pm:415> INFO - Reading 'test.bcf'
+[279] Biber.pm:943> INFO - Found 8 citekeys in bib section 0
+[304] Biber.pm:4256> INFO - Processing section 0
+[304] Utils.pm:75> INFO - Globbing data source 'daftar_pustaka.bib'
+[316] Utils.pm:91> INFO - Globbed data source 'daftar_pustaka.bib' to daftar_pustaka.bib
+[335] Biber.pm:4455> INFO - Looking for bibtex format file 'daftar_pustaka.bib' for section 0
+[338] bibtex.pm:1653> INFO - LaTeX decoding ...
+[376] bibtex.pm:1471> INFO - Found BibTeX data source 'daftar_pustaka.bib'
+[403] Utils.pm:304> WARN - month field 'May' in entry 'larxel_2020' is not an integer - this will probably not sort properly.
+[455] Utils.pm:304> WARN - month field 'August' in entry 'shilpa_2020' is not an integer - this will probably not sort properly.
+[481] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[481] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[481] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[481] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[499] bbl.pm:652> INFO - Writing 'test.bbl' with encoding 'UTF-8'
+[511] bbl.pm:755> INFO - Output to test.bbl
+[518] Biber.pm:128> INFO - WARNINGS: 2

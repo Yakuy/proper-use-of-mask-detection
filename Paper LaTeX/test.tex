@@ -113,9 +113,29 @@
   		
   		\par Tujuan kedua, dari hasil penambangan data kami bertujuan untuk langsung memakai model tersebut diimplementasikan langsung dengan teknologi serta kesiapa infrastruktur yang ada. Implementasi ini diharapkan dapat membantu tenaga manusia untuk dapat secara otomatis memperingatkan selalu penggunaan masker di tempat umum supaya era \textit{new normal} dapat terwujudkan. Manfaat yang kami harapkan adalah peningkatan kesadaran penggunaan masker dan kemudahan bagi tenaga manusia untuk mengawasi penggunaan masker.
   \section{Metode}
+  	\subsection{Dataset}
+  	Dataset yang akan digunakan untuk melatih model adalah dataset Kaggle Face Mask Detection milik Larxel\cite{larxel_2020}. Dataset berisi 853 gambar yang digolongkan menjadi 3 kelas : menggunakan masker, tidak menggunakan masker, dan masker tidak dipakai dengan benar. Tiap gambar disertai dengan keterangan \textit{bounding box} dalam format PASCAL VOC yang menunjukkan lokasi wajah dan masker. 
+  	
+  	\begin{figure}[H]
+  		\centering
+  		\includegraphics[width=400px]{/sample_dataset.png}
+  		\caption{Sample Gambar Pada Dataset Kaggle Face Mask Detection}
+  	\end{figure} 
+  	
+  	\subsection{Metode Prapemrosesan}
+  	Prapemrosesan adalah semua transformasi yang diaplikasikan ke data mentah sebagai bentuk persiapan untuk dimasukkan ke algoritma pembelajaran mesin. Prapemrosesan citra mungkin memiliki efek positif pada kualitas ekstraksi fitur dan hasil analisis gambar \cite{krig}. Pelatihan pada algoritma pembelajaran dengan citra mentah tanpa adanya prapemrosesan akan menyebabkan kinerja klasifikasi yang buruk \cite{pal}.
+	  	\subsubsection{Konversi ke RGB}
+	  	RGB (\textit{Red, Green, Blue}) adalah model warna aditif dimana warna merah, hijau, dan biru ditambahkan bersama dengan berbagai cara untuk mereproduksikan sejumlah besar warna \cite{robert}. Tujuan utama model warna RGB adalah untuk mendeteksi, merepresentasikan, dan menampilkan gambar-gambar di sistem-sistem elektronik.
+	  	\subsubsection{Normalisasi}
+	  	Normalisasi adalah proses yang mengubah kisaran intensitas pixel dan memastikan setiap parameter \textit{input} memiliki ditribusi yang serupa. 
+	  	Tujuan dari normalisasi pada gambar adalah untuk membuat gambar lebih akrab atau terlihat normal bagi indra manusia. Dalam kasus ini, normalisasi dilakukan dengan membagi semua intensitas pixel dalam frame dengan nilai maksimumnya yaitu 255.0.
+	  	\subsubsection{Konversi ke PyTorch \textit{Tensor}}
+	  	PyTorch \textit{Tensor} adalah matriks berdimensi banyak yang mengandung elemen-elemen dengan tipe data yang sama. PyTorch \textit{Tensor} memiliki banyak kemiripan dengan numpy array; keduanya adalah array n-dimensional generik untuk digunakan untuk komputasi numerik. Perbedaan utamanya adalah PyTorch \textit{Tensor} dapat dijalankan pada CPU atau GPU.
+	  	\par
+	  	Model yang digunakan pada makalah ini dijalankan menggunakan GPU, sehingga mengharuskan gambar masukan masuk dalam bentuk PyTorch \textit{Tensor}. Gambar masukan yang masih dalam model warna RGB dikonversi menjadi PyTorch \textit{Tensor} dengan fungsi torchvision.transforms.ToTensor(). 
   	\subsection{Pembelajaran Model}
   	 \subsubsection{Faster R-CNN}
-  	 \par Faster R-CNN pertama kali dipublikasikan pada tahun 2015. Jaringan pendeteksi objek sebelum Faster R-CNN menggunakan algoritma proposal wilayah untuk membuat hipotesis lokasi objek. Jaringan seperti R-CNN dan Fast R-CNN menggunakan algoritma berbasis CPU seperti Algoritma Selective Search yang membutuhkan waktu sekitar 2 detik untuk setiap gambar. Jaringan Faster R-CNN memperbaiki masalah ini dengan menggunakan convolutional network untuk menghasilkan proposal wilayah. Perubahan ini mengurangi waktu penghitungan proposal wilayah dari 2 detik menjadi 10 militdetik dan meningkatkan representasi fitur. Faster R-CNN terdiri dari detection pipeline yang menggunakan RPN sebagai algoritma proposal wilayah dan Fast R-CNN sebagai jaringan detektor.\cite{shilpa_2020}
+  	 \par Faster R-CNN pertama kali dipublikasikan pada tahun 2015. Jaringan pendeteksi objek sebelum Faster R-CNN menggunakan algoritma proposal wilayah untuk membuat hipotesis lokasi objek. Jaringan seperti R-CNN dan Fast R-CNN menggunakan algoritma berbasis CPU seperti Algoritma \textit{Selective Search} yang membutuhkan waktu sekitar 2 detik untuk setiap gambar. Jaringan Faster R-CNN memperbaiki masalah ini dengan menggunakan convolutional network untuk menghasilkan proposal wilayah. Perubahan ini mengurangi waktu penghitungan proposal wilayah dari 2 detik menjadi 10 militdetik dan meningkatkan representasi fitur. Faster R-CNN terdiri dari \textit{detection pipeline} yang menggunakan RPN sebagai algoritma proposal wilayah dan Fast R-CNN sebagai jaringan detektor.\cite{shilpa_2020}
   	 
   	 \begin{figure}[H]
   	 	\centering
@@ -123,51 +143,51 @@
   	 	\caption{Arsitektur RPN}
   	 \end{figure}
    
-  	 \par RPN (Region Proposal Network) dimulai dengan memasukkan gambar input ke dalam Backbone CNN. Gambar input diubah ukurannya sehingga sisi yang pendek 600px dan sisi yang panjang tidak lebih dari 1000px. Output dari Backbone CNN biasanya jauh lebih kecil dari ukuran gambar input, tergantung parameter stride dari Backbone CNN. Contoh Backbone CNN yang dapat digunakan adalah jaringan VGG atau ZF-Net dengan stride 16. Hal ini berarti pixel-pixel yang bersebelahan pada output jaringan sama dengan dua pixel yang terpisah sejauh 16 pixel pada gambar input. 
+  	 \par RPN (\textit{Region Proposal Network}) dimulai dengan memasukkan gambar input ke dalam Backbone CNN. Gambar input diubah ukurannya sehingga sisi yang pendek 600px dan sisi yang panjang tidak lebih dari 1000px. Output dari Backbone CNN biasanya jauh lebih kecil dari ukuran gambar input, tergantung parameter stride dari Backbone CNN. Contoh Backbone CNN yang dapat digunakan adalah jaringan VGG atau ZF-Net dengan stride 16. Hal ini berarti pixel-pixel yang bersebelahan pada output jaringan sama dengan dua pixel yang terpisah sejauh 16 pixel pada gambar input. 
   	 
-  	 \par Untuk setiap titik pada output feature map, jaringan harus belajar apakah objek terdeteksi pada gambar input pada lokasi tersebut dan mengestimasi ukurannya. Hal ini dilakukan dengan meletakkan "Anchors" pada gambar input untuk setiap lokasi pada output feature map. "Anchors" mengindikasikan objek-objek yang mungkin terdapat pada lokasi tersebut dengan beragam ukuran dan aspect ratio. 
+  	 \par Untuk setiap titik pada \textit{output feature map}, jaringan harus belajar apakah objek terdeteksi pada gambar input pada lokasi tersebut dan mengestimasi ukurannya. Hal ini dilakukan dengan meletakkan \textit{anchors} pada gambar input untuk setiap lokasi pada \textit{output feature map}.\textit{ Anchors }mengindikasikan objek-objek yang mungkin terdapat pada lokasi tersebut dengan beragam ukuran dan \textit{aspect ratio}. 
   	 
   	 \begin{figure}[H]
   	 	\centering
   	 	\includegraphics[width=300px]{arsitektur/contoh_anchor.jpeg}
-  	 	\caption{Contoh "Anchors" pada Gambar Input dari Lokasi Titik A pada Feature Map}
+  	 	\caption{Contoh "Anchors" pada Gambar Input dari Lokasi Titik A pada \textit{Feature Map}}
   	 \end{figure}
    
-   	\par Jaringan bergerak melewati setiap pixel pada output feature map dan memeriksa apakah "anchors" yang mencakupi sebuah area pada gambar input mengandung objek atau tidak, lalu mengoptimalkan koordinat-koordinat "anchors" untuk menghasilkan kotak-kotak pembatas yang disebut proposal wilayah.
+   	\par Jaringan bergerak melewati setiap pixel pada \textit{output feature map} dan memeriksa apakah \textit{anchors} yang mencakupi sebuah area pada gambar input mengandung objek atau tidak, lalu mengoptimalkan koordinat-koordinat \textit{anchors} untuk menghasilkan kotak-kotak pembatas yang disebut proposal wilayah.
    	
-   	\par Konvolusi 3x3 dengan 512 unit diaplikasikan ke feature map untuk menghasilkan 512-d feature map untuk setiap lokasi. Lalu diikuti oleh 1x1 convolution layer dengan 18 unit untuk klasifikasi objek, dan 1x1 convolution dengan 36 unit untuk regresi kotak pembatas. 18 unit dari cabang klasifikasi akan mengeluarkan output dengan ukuran (H, W, 18) yang memberikan probabilitas apakah setiap titik dalam backbone feature map mengandung objek atau tidak di dalam semua 9 "anchors" pada titik. 36 unit dari cabang regresi akan mengeluarkan output dengan ukuran (H, W, 36) yang memberikan 4 koefisien regresi  untuk setiap 9 "anchors" untuk setiap titik dalam backbone feature map. Koefisien regresi meningkatkan akurasi koordinat "anchors" yang mengandung objek.
+   	\par Konvolusi 3x3 dengan 512 unit diaplikasikan ke \textit{feature map} untuk menghasilkan 512-d \textit{feature map} untuk setiap lokasi. Lalu diikuti oleh 1x1 convolution layer dengan 18 unit untuk klasifikasi objek, dan 1x1 convolution dengan 36 unit untuk regresi kotak pembatas. 18 unit dari cabang klasifikasi akan mengeluarkan output dengan ukuran (H, W, 18) yang memberikan probabilitas apakah setiap titik dalam\textit{ backbone feature map }mengandung objek atau tidak di dalam semua 9 \textit{anchors} pada titik. 36 unit dari cabang regresi akan mengeluarkan output dengan ukuran (H, W, 36) yang memberikan 4 koefisien regresi  untuk setiap 9 \textit{anchors} untuk setiap titik dalam \textit{backbone feature map}. Koefisien regresi meningkatkan akurasi koordinat \textit{anchors} yang mengandung objek.
    	
-   	\par Output feature map terdiri dari 40x60 lokasi, dengan total "anchors" sekitar 20 ribu. Ketika melatih model, semua "anchors" yang melewati batas gambar dihiraukan supaya tidak berkontribusi dalam penghitungan loss. Sebuah "anchor" dianggap sampel positif bila memenuhi salah satu kondisi :
+   	\par \textit{Output feature map} terdiri dari 40x60 lokasi, dengan total \textit{anchors} sekitar 20 ribu. Ketika melatih model, semua \textit{anchors} yang melewati batas gambar dihiraukan supaya tidak berkontribusi dalam penghitungan loss. Sebuah \textit{anchor} dianggap sampel positif bila memenuhi salah satu kondisi :
    	\begin{enumerate}
-   		\item "Anchor" memiliki IoU (Intersection over Union) tertinggi dengan kotak groundtruth.
-   		\item "Anchor" memiliki IoU lebih besar dari 0.7 untuk setiap kotak groundtruth.
+   		\item \textit{Anchor} memiliki IoU (\textit{Intersection over Union}) tertinggi dengan kotak \textit{groundtruth}.
+   		\item \textit{Anchor} memiliki IoU lebih besar dari 0.7 untuk setiap kotak \textit{groundtruth}.
    	\end{enumerate}
-   	Sebuah "anchor" dianggap sampel negatif bila IoU dengan semua kotak groundtruth kurang dari 0.3. "Anchor" yang tidak termasuk positif dan negatif akan dihiraukan saja.
+   	Sebuah \textit{anchor} dianggap sampel negatif bila IoU dengan semua kotak \textit{groundtruth} kurang dari 0.3. \textit{Anchor} yang tidak termasuk positif dan negatif akan dihiraukan saja.
    	
-   	\par Setiap mini-batch untuk melatih RPN berasal dari sebuah gambar. 128 sampel positif dan 128 sampel negatif dipilih secara acak untuk menghasilkan batch. Training loss dari RPN adalah multi-task loss yang dihitung sebagai berikut : 
+   	\par Setiap\textit{ mini-batch} untuk melatih RPN berasal dari sebuah gambar. 128 sampel positif dan 128 sampel negatif dipilih secara acak untuk menghasilkan batch. \textit{Training loss} dari RPN adalah \textit{multi-task loss} yang dihitung sebagai berikut : 
    
    	\begin{figure}[H]
    		\centering
    		\includegraphics[width=400px]{rumus/training_loss.png}
    	\end{figure}
    
-   	$i$ adalah index dari "anchor" dalam mini-batch. Classification loss adalah log loss dari dua kelas (objek vs bukan objek). $p_{i}$ adalah nilai output dari cabang klasikasi untuk "anchor" $i$, dan $p_{i}^{*}$ adalah label groundtruth.
+   	$i$ adalah index dari \textit{anchor} dalam \textit{mini-batch}. \textit{Classification loss} adalah \textit{log loss} dari dua kelas (objek vs bukan objek). $p_{i}$ adalah nilai output dari cabang klasikasi untuk \textit{anchor} $i$, dan $p_{i}^{*}$ adalah label \textit{groundtruth}.
    	
-   	\par Regression loss diaktivasi hanya jika "anchor" mengandung objek. $t_{i}$ adalah output prediksi dari cabang regresi dan terdiri dari 4 variabel [$t_{x}, t_{y}, t_{w}, t_{h}$]. Regression target dihitung dengan rumus berikut :
+   	\par \textit{Regression loss} diaktivasi hanya jika \textit{anchor} mengandung objek. $t_{i}$ adalah output prediksi dari cabang regresi dan terdiri dari 4 variabel [$t_{x}, t_{y}, t_{w}, t_{h}$]. \textit{Regression target} dihitung dengan rumus berikut :
    	
    	\begin{figure}[H]
    		\centering
    		\includegraphics[width=400px]{rumus/regression_target.png}
    	\end{figure}
    
-   	$x, y, w, h$ adalah koordinat (x, y) dari titik tengah kotak pembatas dan tinggi(h) dan lebar(w) kotak. $x^{*}, y^{*}, w^{*}, h^{*}$ adalah koordinat dan dimensi kotak-kotak groundtruth. Setiap "anchor" memiliki regresor yang berbeda, sehingga weight nya berbeda-beda. Ketika waktu pengujian, output regresi $t_{i}$ bisa diaplikasikan ke kotak "anchor", dan parameter $x, y, w, h$ untuk kotak pembatas prediksi bisa dihitung dari rumus :
+   	$x, y, w, h$ adalah koordinat (x, y) dari titik tengah kotak pembatas dan tinggi(h) dan lebar(w) kotak. $x^{*}, y^{*}, w^{*}, h^{*}$ adalah koordinat dan dimensi kotak-kotak \textit{groundtruth}. Setiap\textit{ anchor} memiliki regresor yang berbeda, sehingga weight nya berbeda-beda. Ketika waktu pengujian, output regresi $t_{i}$ bisa diaplikasikan ke kotak\textit{ anchor}, dan parameter $x, y, w, h$ untuk kotak pembatas prediksi bisa dihitung dari rumus :
    	
    	\begin{figure}[H]
    		\centering
    		\includegraphics[width=400px]{rumus/regression_target_2.png}
    	\end{figure}
    	
-   	\par Pada waktu pengujian, "anchors" dari setiap gambar melewati beberapa langkah post-processing untuk mengirimkan kotak-kotak pembatas objek.Koefisien regresi diaplikasikan ke "anchor" untuk lokalisasi yang tepat. Untuk kumpulan kotak-kota yang tumpang tindih, kotak yang memiliki IoU lebih dari 0.7 dengan kotak lain akan dibuang. Hanya proposal kotak pembatas sejumlah $n$ terbaik dari RPN akan dipilih.
+   	\par Pada waktu pengujian, \textit{anchors} dari setiap gambar melewati beberapa langkah \textit{post-processing} untuk mengirimkan kotak-kotak pembatas objek.Koefisien regresi diaplikasikan ke \textit{anchor} untuk lokalisasi yang tepat. Untuk kumpulan kotak-kota yang tumpang tindih, kotak yang memiliki IoU lebih dari 0.7 dengan kotak lain akan dibuang. Hanya proposal kotak pembatas sejumlah $n$ terbaik dari RPN akan dipilih.
    	
    	\begin{figure}[H]
    		\centering
@@ -175,21 +195,21 @@
    		\caption{Arsitektur Faster R-CNN Lengkap (RPN + Fast R-CNN)}
    	\end{figure}
    	
-   	\par Arsitektur Faster R-CNN lengkap terdiri dari RPN sebagai algoritme proposal wilayah dan Fast R-CNN sebagai jaringan pendeteksi. Jaringan pendeteksi Fast R-CNN juga terdiri dari Backbone CNN, ROI pooling layer, dan fully-connected layer diikuti dengan dua cabang untuk klasifikasi dan regresi kotak pembatas. Gambar input dimasukkan ke Backbone CNN untuk mendapatkan feature map. Salah satu keuntungan menggunakan RPN sebagai penghasil proposal adalah pembagian weights antara backbone RPN dan backbone Fast R-CNN. Lalu, ROI pooling layer melakukan langkah-langkah di bawah :
+   	\par Arsitektur Faster R-CNN lengkap terdiri dari RPN sebagai algoritme proposal wilayah dan Fast R-CNN sebagai jaringan pendeteksi. Jaringan pendeteksi Fast R-CNN juga terdiri dari Backbone CNN, ROI pooling layer, dan fully-connected layer diikuti dengan dua cabang untuk klasifikasi dan regresi kotak pembatas. Gambar input dimasukkan ke Backbone CNN untuk mendapatkan \textit{feature map}. Salah satu keuntungan menggunakan RPN sebagai penghasil proposal adalah pembagian \textit{weights} antara backbone RPN dan backbone Fast R-CNN. Lalu, ROI pooling layer melakukan langkah-langkah di bawah :
    	\begin{enumerate}
-   		\item Mengambil daerah proposal dari feature map backbone.
+   		\item Mengambil daerah proposal dari \textit{feature map} backbone.
    		\item Membagi wilayah menjadi sub-wilayah dengan jumlah tertentu.
-   		\item Melakukan max-pooling dari sub-wilayah untuk mendapatkan output dengan ukuran tertentu.
+   		\item Melakukan \textit{max-pooling} dari sub-wilayah untuk mendapatkan output dengan ukuran tertentu.
    	\end{enumerate}
    
    	\par Output ROI pooling layer dimasukkan ke dua fully-connected layer, lalu fitur-fitur dimasukkan ke cabang klasifikasi dan regresi. Cabang klasifikasi dan regresi berbeda dengan cabang klasifikasi dan regresi pada RPN. Disini classification layer memiliki $C$ unit untuk setiap kelas pada tugas deteksi. Fitur-fitur masuk melewati softmax layer untuk mendapatkan nilai klasifikasi, probabilitas proposal masuk ke dalam suatu kelas. Koefisien regresi digunakan untuk meningkatkan akurasi dari kotak pembatas. Setiap kelas memiliki regresor masing-masing dengan 4 parameter sesuai dengan $C$*4 unit output pada regression layer.
    	
-   	\par Untuk memaksa jaringan untuk membagi weight Backbone CNN antara RPN dan Fast R-CNN, digunakan proses latihan 4 langkah :
+   	\par Untuk memaksa jaringan untuk membagi \textit{weight} Backbone CNN antara RPN dan Fast R-CNN, digunakan proses latihan 4 langkah :
    	\begin{enumerate}
    		\item RPN dilatih secara independen seperti penjelasan di atas.
    		\item Jaringan pendeteksi Fast R-CNN juga dilatih secara independen.
-   		\item Weight RPN diinisialisasi dengan weight Faster R-CNN, lalu dilatih untuk tugas proposal wilayah. Weight pada lapisan-lapisan yang sama antara RPN dan Fast R-CNN tetap sama, hanya lapisan yang ada di RPN saja yang diubah.
-   		\item Dengan menggunakan RPN baru, jaringan pendeteksi Fast R-CNN juga dilatih lagi. Hanya lapisan-lapisan yang ada di Fast R-CNN saja yang berubah weight nya. 
+   		\item \textit{Weight} RPN diinisialisasi dengan \textit{weight} Faster R-CNN, lalu dilatih untuk tugas proposal wilayah. \textit{Weight} pada lapisan-lapisan yang sama antara RPN dan Fast R-CNN tetap sama, hanya lapisan yang ada di RPN saja yang diubah.
+   		\item Dengan menggunakan RPN baru, jaringan pendeteksi Fast R-CNN juga dilatih lagi. Hanya lapisan-lapisan yang ada di Fast R-CNN saja yang berubah \textit{weight} nya. 
    	\end{enumerate}
    	
    	\begin{figure}[H]

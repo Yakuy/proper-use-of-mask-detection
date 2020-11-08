@@ -153,6 +153,84 @@
       \verb https://proceedings.neurips.cc/paper/2015/file/14bfa6bb14875e45bba028a21ed38046-Paper.pdf
       \endverb
     \endentry
+    \entry{krig}{article}{}
+      \name{author}{1}{}{%
+        {{hash=066ddd75b9a904f4c23d2f87495b909b}{%
+           family={Krig},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{066ddd75b9a904f4c23d2f87495b909b}
+      \strng{fullhash}{066ddd75b9a904f4c23d2f87495b909b}
+      \strng{bibnamehash}{066ddd75b9a904f4c23d2f87495b909b}
+      \strng{authorbibnamehash}{066ddd75b9a904f4c23d2f87495b909b}
+      \strng{authornamehash}{066ddd75b9a904f4c23d2f87495b909b}
+      \strng{authorfullhash}{066ddd75b9a904f4c23d2f87495b909b}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Vision Metrics}
+      \field{title}{Image pre-processing}
+      \field{year}{1993}
+      \field{pages}{56\bibrangedash 111}
+      \range{pages}{56}
+      \verb{doi}
+      \verb 10.1007/978-3-319-50490-23
+      \endverb
+    \endentry
+    \entry{pal}{book}{}
+      \name{author}{2}{}{%
+        {{hash=0af1cf6ae19fee089b4f6e6cab12236c}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={K.\bibnamedelimi K.},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=679f292672f14ad4a1cbd41c1516d61b}{%
+           family={Sudeep},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi S.},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{da170058301d309cfc572383f39815a1}
+      \strng{fullhash}{da170058301d309cfc572383f39815a1}
+      \strng{bibnamehash}{da170058301d309cfc572383f39815a1}
+      \strng{authorbibnamehash}{da170058301d309cfc572383f39815a1}
+      \strng{authornamehash}{da170058301d309cfc572383f39815a1}
+      \strng{authorfullhash}{da170058301d309cfc572383f39815a1}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781509007745}
+      \field{journaltitle}{IEEE International Conference On Recent Trends In Electronics Information Communication Technology}
+      \field{title}{Preprocessing for Image Classification by Convolutional Neural Networks}
+      \field{pages}{1778\bibrangedash 1781}
+      \range{pages}{4}
+    \endentry
+    \entry{robert}{book}{}
+      \name{author}{1}{}{%
+        {{hash=36eea0e60e8fcec12171375e8e4dafe1}{%
+           family={Hirsch},
+           familyi={H\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{36eea0e60e8fcec12171375e8e4dafe1}
+      \strng{fullhash}{36eea0e60e8fcec12171375e8e4dafe1}
+      \strng{bibnamehash}{36eea0e60e8fcec12171375e8e4dafe1}
+      \strng{authorbibnamehash}{36eea0e60e8fcec12171375e8e4dafe1}
+      \strng{authornamehash}{36eea0e60e8fcec12171375e8e4dafe1}
+      \strng{authorfullhash}{36eea0e60e8fcec12171375e8e4dafe1}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{ISBN 1-85669-420-8}
+      \field{journaltitle}{Laurence King Publishing}
+      \field{title}{Exploring Colour Photography: A Complete Guide}
+    \endentry
     \entry{shilpa_2020}{online}{}
       \name{author}{1}{}{%
         {{hash=d2f67141bf23d1a412031a0114059d5d}{%
@@ -167,8 +245,8 @@
       \strng{authorbibnamehash}{d2f67141bf23d1a412031a0114059d5d}
       \strng{authornamehash}{d2f67141bf23d1a412031a0114059d5d}
       \strng{authorfullhash}{d2f67141bf23d1a412031a0114059d5d}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -195,8 +273,8 @@
       \strng{authorbibnamehash}{bb30838fbf8525d4dd0a498ddc670994}
       \strng{authornamehash}{bb30838fbf8525d4dd0a498ddc670994}
       \strng{authorfullhash}{bb30838fbf8525d4dd0a498ddc670994}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{torchvision.ops.nms PyTorch 1.7.0 Documentation}
