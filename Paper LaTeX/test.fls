@@ -370,11 +370,11 @@ INPUT ..\demo\Results\implementation\with_nms0.png
 INPUT ..\demo\Results\implementation\with_nms0.png
 INPUT ..\demo\Results\implementation\with_nms0.png
 INPUT ..\demo\Results\implementation\with_nms0.png
-INPUT images\benchmark\hasil3.png
-INPUT .\images\benchmark\hasil3.png
-INPUT .\images\benchmark\hasil3.png
-INPUT .\images\benchmark\hasil3.png
-INPUT .\images\benchmark\hasil3.png
+INPUT images\implementasi\thumbnail.png
+INPUT .\images\implementasi\thumbnail.png
+INPUT .\images\implementasi\thumbnail.png
+INPUT .\images\implementasi\thumbnail.png
+INPUT .\images\implementasi\thumbnail.png
 INPUT images\benchmark\hasil1.png
 INPUT .\images\benchmark\hasil1.png
 INPUT .\images\benchmark\hasil1.png

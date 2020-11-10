@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.30)  9 NOV 2020 00:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.30)  10 NOV 2020 07:51
 entering extended mode
 **"c:/Users/Chrystian/Desktop/Project/Codig-3.0/paper LaTeX/test.tex"
 ("c:/Users/Chrystian/Desktop/Project/Codig-3.0/paper LaTeX/test.tex"
@@ -780,11 +780,6 @@ Overfull \hbox (1.45796pt too wide) in paragraph at lines 112--113
 []\OT1/ptm/m/n/10 Tujuan utama, kami men-gusulkan meng-gu-nakan model Ob-ject De-tec-tion den-gan ar-sitek-tur Faster
  []
 
-
-Overfull \hbox (2.94728pt too wide) in paragraph at lines 114--115
-\OT1/ptm/m/n/10 men-tasi ini di-hara-p-kan da-pat mem-bantu tenaga manu-sia un-tuk da-pat se-cara otoma-tis mem-peringatkan
- []
-
 [3]
 <./images//sample_dataset.png, id=146, 524.96124pt x 96.86188pt>
 File: ./images//sample_dataset.png Graphic file (type png)
@@ -894,34 +889,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
-<../demo/Results/implementation/raw_prediction_nms0_labeled.png, id=212, 486.31688pt x 386.19281pt>
+<../demo/Results/implementation/raw_prediction_nms0_labeled.png, id=211, 486.31688pt x 386.19281pt>
 File: ../demo/Results/implementation/raw_prediction_nms0_labeled.png Graphic file (type png)
 <use ../demo/Results/implementation/raw_prediction_nms0_labeled.png>
 Package pdftex.def Info: ../demo/Results/implementation/raw_prediction_nms0_labeled.png  used on input line 257.
 (pdftex.def)             Requested size: 250.93842pt x 199.27159pt.
 [10 <./images/arsitektur/Sequential with Postprocessing.png (PNG copy)> <../demo/Results/implementation/raw_prediction_nms0_labeled.png (PNG copy)>]
-<../demo/Results/implementation/with_nms0.png, id=220, 482.55281pt x 386.19281pt>
+<../demo/Results/implementation/with_nms0.png, id=218, 482.55281pt x 386.19281pt>
 File: ../demo/Results/implementation/with_nms0.png Graphic file (type png)
 <use ../demo/Results/implementation/with_nms0.png>
 Package pdftex.def Info: ../demo/Results/implementation/with_nms0.png  used on input line 276.
 (pdftex.def)             Requested size: 250.93842pt x 200.8273pt.
  [11 <../demo/Results/implementation/with_nms0.png>]
-<./images/benchmark/hasil3.png, id=227, 968.11688pt x 576.65437pt>
-File: ./images/benchmark/hasil3.png Graphic file (type png)
-<use ./images/benchmark/hasil3.png>
-Package pdftex.def Info: ./images/benchmark/hasil3.png  used on input line 296.
-(pdftex.def)             Requested size: 301.1261pt x 179.36813pt.
-<./images/benchmark/hasil1.png, id=229, 469.755pt x 81.30376pt>
+<./images/implementasi/thumbnail.png, id=225, 1445.4pt x 813.0375pt>
+File: ./images/implementasi/thumbnail.png Graphic file (type png)
+<use ./images/implementasi/thumbnail.png>
+Package pdftex.def Info: ./images/implementasi/thumbnail.png  used on input line 296.
+(pdftex.def)             Requested size: 301.1261pt x 169.37825pt.
+<./images/benchmark/hasil1.png, id=227, 469.755pt x 81.30376pt>
 File: ./images/benchmark/hasil1.png Graphic file (type png)
 <use ./images/benchmark/hasil1.png>
 Package pdftex.def Info: ./images/benchmark/hasil1.png  used on input line 306.
 (pdftex.def)             Requested size: 289.97638pt x 50.18768pt.
-<./images/benchmark/hasil2.png, id=230, 580.41844pt x 79.79813pt>
+<./images/benchmark/hasil2.png, id=228, 580.41844pt x 79.79813pt>
 File: ./images/benchmark/hasil2.png Graphic file (type png)
 <use ./images/benchmark/hasil2.png>
 Package pdftex.def Info: ./images/benchmark/hasil2.png  used on input line 312.
 (pdftex.def)             Requested size: 365.0456pt x 50.18768pt.
-<./images/implementasi/test.jpg, id=231, 4175.6pt x 3131.7pt>
+<./images/implementasi/test.jpg, id=229, 4175.6pt x 3131.7pt>
 File: ./images/implementasi/test.jpg Graphic file (type jpg)
 <use ./images/implementasi/test.jpg>
 Package pdftex.def Info: ./images/implementasi/test.jpg  used on input line 332.
@@ -941,7 +936,7 @@ Overfull \hbox (0.77838pt too wide) in paragraph at lines 329--334
 \OT1/ptm/m/n/10 se-ba-gai alat un-tuk menghubungkan cctv den-gan mon-i-tor dan men-jadi tem-pat un-tuk model melakukan
  []
 
-[12 <./images/benchmark/hasil3.png> <./images/benchmark/hasil1.png> <./images/benchmark/hasil2.png>] [13 <./images/implementasi/test.jpg>]
+[12 <./images/implementasi/thumbnail.png> <./images/benchmark/hasil1.png> <./images/benchmark/hasil2.png>] [13 <./images/implementasi/test.jpg>]
 Overfull \hbox (11.47025pt too wide) in paragraph at lines 338--338
 []\OT1/ptm/m/n/10 N. Zu-raya. \OT1/ptm/m/it/10 Tiga Dampak Be-sar Pan-demi Covid-19 bagi Ekonomi RI\OT1/ptm/m/n/10 . \OT1/ptm/m/sc/10 url\OT1/ptm/m/n/10 : []$\OT1/cmtt/m/n/10 https : / / republika .
  []
@@ -965,17 +960,17 @@ Package logreq Info: Writing requests to 'test.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 339.
  ) 
 Here is how much of TeX's memory you used:
- 24358 strings out of 481212
- 475281 string characters out of 2915715
- 1107657 words of memory out of 3000000
- 39434 multiletter control sequences out of 15000+200000
+ 24355 strings out of 481212
+ 475217 string characters out of 2915715
+ 1107606 words of memory out of 3000000
+ 39432 multiletter control sequences out of 15000+200000
  562421 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,9n,60p,1294b,1261s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users\Chrystian\Desktop\Project\Codig-3.0\paper LaTeX\test.pdf" (15 pages, 3420353 bytes).
+Output written on "c:/Users\Chrystian\Desktop\Project\Codig-3.0\paper LaTeX\test.pdf" (15 pages, 3991097 bytes).
 PDF statistics:
- 308 PDF objects out of 1000 (max. 8388607)
- 71 named destinations out of 1000 (max. 500000)
+ 303 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
  274 words of extra memory for PDF output out of 10000 (max. 10000000)
 

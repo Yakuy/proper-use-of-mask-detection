@@ -2190,7 +2190,6 @@
     <bcf:citekey order="6">pal</bcf:citekey>
     <bcf:citekey order="7">robert</bcf:citekey>
     <bcf:citekey order="8">shilpa_2020</bcf:citekey>
-    <bcf:citekey order="9">nms_pytorch</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

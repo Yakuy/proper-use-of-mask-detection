@@ -259,33 +259,6 @@
       \verb https://towardsdatascience.com/faster-r-cnn-for-object-detection-a-technical-summary-474c5b857b46
       \endverb
     \endentry
-    \entry{nms_pytorch}{online}{}
-      \name{author}{1}{}{%
-        {{hash=bb30838fbf8525d4dd0a498ddc670994}{%
-           family={Contributors},
-           familyi={C\bibinitperiod},
-           given={Torch},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{bb30838fbf8525d4dd0a498ddc670994}
-      \strng{fullhash}{bb30838fbf8525d4dd0a498ddc670994}
-      \strng{bibnamehash}{bb30838fbf8525d4dd0a498ddc670994}
-      \strng{authorbibnamehash}{bb30838fbf8525d4dd0a498ddc670994}
-      \strng{authornamehash}{bb30838fbf8525d4dd0a498ddc670994}
-      \strng{authorfullhash}{bb30838fbf8525d4dd0a498ddc670994}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{torchvision.ops.nms PyTorch 1.7.0 Documentation}
-      \field{year}{2019}
-      \verb{urlraw}
-      \verb https://pytorch.org/docs/stable/torchvision/ops.html
-      \endverb
-      \verb{url}
-      \verb https://pytorch.org/docs/stable/torchvision/ops.html
-      \endverb
-    \endentry
   \enddatalist
 \endrefsection
 \endinput
