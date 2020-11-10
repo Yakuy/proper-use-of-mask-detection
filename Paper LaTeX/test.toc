@@ -42,4 +42,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Kesimpulan}{13}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Lampiran}{13}{section.6}%
+\contentsline {section}{\numberline {6}Lampiran}{14}{section.6}%
