@@ -11,12 +11,13 @@
 \BOOKMARK [3][-]{subsubsection.3.2.3}{Konversi ke PyTorch Tensor}{subsection.3.2}% 11
 \BOOKMARK [2][-]{subsection.3.3}{Pembelajaran Model}{section.3}% 12
 \BOOKMARK [3][-]{subsubsection.3.3.1}{Faster R-CNN}{subsection.3.3}% 13
-\BOOKMARK [2][-]{subsection.3.4}{Implementasi Weight dari Faster R-CNN Model}{section.3}% 14
-\BOOKMARK [3][-]{subsubsection.3.4.1}{Perangkat Uji Coba}{subsection.3.4}% 15
-\BOOKMARK [3][-]{subsubsection.3.4.2}{Program WebCam Pendeteksi Masker}{subsection.3.4}% 16
-\BOOKMARK [3][-]{subsubsection.3.4.3}{Program WebCam Pendeteksi Masker dengan Post-processing}{subsection.3.4}% 17
-\BOOKMARK [1][-]{section.4}{Hasil}{}% 18
-\BOOKMARK [2][-]{subsection.4.1}{Hasil Program}{section.4}% 19
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Performa Program}{subsection.4.1}% 20
-\BOOKMARK [1][-]{section.5}{Kesimpulan}{}% 21
-\BOOKMARK [1][-]{section.6}{Lampiran}{}% 22
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Transfer Learning}{subsection.3.3}% 14
+\BOOKMARK [2][-]{subsection.3.4}{Implementasi Weight dari Faster R-CNN Model}{section.3}% 15
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Perangkat Uji Coba}{subsection.3.4}% 16
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Program WebCam Pendeteksi Masker}{subsection.3.4}% 17
+\BOOKMARK [3][-]{subsubsection.3.4.3}{Program WebCam Pendeteksi Masker dengan Post-processing}{subsection.3.4}% 18
+\BOOKMARK [1][-]{section.4}{Hasil}{}% 19
+\BOOKMARK [2][-]{subsection.4.1}{Hasil Program}{section.4}% 20
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Performa Program}{subsection.4.1}% 21
+\BOOKMARK [1][-]{section.5}{Kesimpulan}{}% 22
+\BOOKMARK [1][-]{section.6}{Lampiran}{}% 23

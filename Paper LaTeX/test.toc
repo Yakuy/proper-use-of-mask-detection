@@ -26,6 +26,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.3.1}Faster R-CNN}{5}{subsubsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.2}Transfer Learning}{8}{subsubsection.3.3.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4}Implementasi Weight dari Faster R-CNN Model}{9}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.1}Perangkat Uji Coba}{9}{subsubsection.3.4.1}%

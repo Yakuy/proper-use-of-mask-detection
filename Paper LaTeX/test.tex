@@ -218,6 +218,11 @@
    		\caption{Hasil Faster R-CNN dengan Backbone VGG}
    	\end{figure}
    	
+   	\subsubsection{Transfer Learning}
+   	\par Transfer learning adalah metode pembelajaran mesin dimana sebuah model yang dikembangkan untuk sebuah tugas digunakan sebagai titik awal untuk model untuk tugas yang berbeda. Metode ini sering digunakan untuk deep learning, dimana model yang sudah terlatih digunakan sebagai titik awal tugas-tugas seperti visi komputer atau NLP. Tugas-tugas ini membutuhkan sumber daya komputasi dan waktu yang besar bila model dibangun tanpa transfer learning. Transfer learning mempercepat waktu pelatihan dan meningkatkan performa model.
+   	
+   	\par Untuk model makalah ini, titik awal model sudah dilatih dengan data pada ImageNet. ImageNet adalah database gambar yang mengandung 1.2 juta gambar yang diklasifikasi menjadi 1000 kelas. Model yang dilatih dengan ImageNet dapat mengklasifikasi gambar menjadi 1000 kelas. Weight dari \textit{pre-trained} model yang sudah dilatih dengan data ImageNet digunakan pada lapisan-lapisan awal dari model untuk mendeteksi masker. Pada model untuk mendeteksi masker, lapisan klasifikasi yang terdapat pada ujung model \textit{pre-trained} dimodifikasi supaya khusus mengklasifikasikan kelas memakai masker, tidak memakai masker, atau menggunakan masker secara salah.  
+   	
    	\newpage
   	\subsection{Implementasi Weight dari Faster R-CNN Model}
   	\subsubsection{Perangkat Uji Coba}
