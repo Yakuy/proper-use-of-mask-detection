@@ -291,11 +291,22 @@
 			2 & With Mask           & \textbf{0.8032} \\
 		\end{tabular}
 	\end{table}
-
+	
   \newpage
   \section{Hasil}
   
+  \subsection{Fungsi Loss}
+  
+  \begin{figure}[H]
+  	\centering
+  	\includegraphics[width=300px]{./images/grafik_loss.png}
+  	\caption{Grafik penurunan fungsi loss pada proses pelatihan}
+  \end{figure}
+  
+  \par \textit{Training loss} yang digunakan adalah \textit{multi-task loss} dengan rumus yang sudah diberikan pada bagian penjelasan Faster R-CNN. \textit{Multi-task loss} merupakan gabungan dari \textit{classification loss} (\textit{los loss} dari dua kelas objek vs bukan objek) serta \textit{regression loss} (\textit{log loss} dari titik tengah dan ukuran kotak prediksi dan \textit{groundtruth}). Terdapat penurunan loss signifikan dari epoch 0 sampai 10, lalu mulai mendatar dari epoch 11 sampai 25.
+  
   \subsection{Hasil Program}
+  
   \begin{figure}[H]
 	\centering
 	\includegraphics[width=300px]{./images/implementasi/thumbnail.png}

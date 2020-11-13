@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.25)  11 NOV 2020 19:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.25)  14 NOV 2020 03:33
 entering extended mode
 **./test.tex
 (test.tex
@@ -940,7 +940,7 @@ Package biblatex Info: ... file 'test.bbl' found.
  (test.bbl)
 Package biblatex Info: Reference section=0 on input line 39.
 Package biblatex Info: Reference segment=0 on input line 39.
-<./images//logo/Lambang UGM.jpg, id=98, 341.3553pt x 341.3553pt>
+<./images//logo/Lambang UGM.jpg, id=102, 341.3553pt x 341.3553pt>
 File: ./images//logo/Lambang UGM.jpg Graphic file (type jpg)
 <use ./images//logo/Lambang UGM.jpg>
 Package pdftex.def Info: ./images//logo/Lambang UGM.jpg  used on input line 53.
@@ -1002,7 +1002,7 @@ e-tec-tion den-gan ar-sitek-tur Faster
  []
 
 [3]
-<./images//sample_dataset.png, id=151, 524.96124pt x 96.86188pt>
+<./images//sample_dataset.png, id=156, 524.96124pt x 96.86188pt>
 File: ./images//sample_dataset.png Graphic file (type png)
 <use ./images//sample_dataset.png>
 Package pdftex.def Info: ./images//sample_dataset.png  used on input line 121.
@@ -1018,7 +1018,7 @@ Overfull \hbox (0.26875pt too wide) in paragraph at lines 135--136
 akan GPU, se-hingga meng-haruskan
  []
 
-<./images/arsitektur/RPN.jpeg, id=167, 1053.9375pt x 789.95125pt>
+<./images/arsitektur/RPN.jpeg, id=172, 1053.9375pt x 789.95125pt>
 File: ./images/arsitektur/RPN.jpeg Graphic file (type jpg)
 <use ./images/arsitektur/RPN.jpeg>
 Package pdftex.def Info: ./images/arsitektur/RPN.jpeg  used on input line 142.
@@ -1030,14 +1030,14 @@ n-put un-tuk se-tiap lokasi pada \OT1/ptm/m/it/10 out-put fea-ture map\OT1/ptm/
 m/n/10 . \OT1/ptm/m/it/10 An-chors \OT1/ptm/m/n/10 mengindikasikan
  []
 
-<./images/arsitektur/contoh_anchor.jpeg, id=168, 723.70375pt x 347.2975pt>
+<./images/arsitektur/contoh_anchor.jpeg, id=173, 723.70375pt x 347.2975pt>
 File: ./images/arsitektur/contoh_anchor.jpeg Graphic file (type jpg)
 <use ./images/arsitektur/contoh_anchor.jpeg>
 Package pdftex.def Info: ./images/arsitektur/contoh_anchor.jpeg  used on input 
 line 152.
 (pdftex.def)             Requested size: 301.1261pt x 144.50732pt.
 [5 <./images/arsitektur/RPN.jpeg>]
-<./images/rumus/training_loss.png, id=175, 846.91406pt x 98.61844pt>
+<./images/rumus/training_loss.png, id=180, 846.91406pt x 98.61844pt>
 File: ./images/rumus/training_loss.png Graphic file (type png)
 <use ./images/rumus/training_loss.png>
 Package pdftex.def Info: ./images/rumus/training_loss.png  used on input line 1
@@ -1048,7 +1048,7 @@ Overfull \hbox (3.16287pt too wide) in paragraph at lines 171--172
  [][] 
  []
 
-<./images/rumus/regression_target.png, id=176, 701.62125pt x 32.12pt>
+<./images/rumus/regression_target.png, id=181, 701.62125pt x 32.12pt>
 File: ./images/rumus/regression_target.png Graphic file (type png)
 <use ./images/rumus/regression_target.png>
 Package pdftex.def Info: ./images/rumus/regression_target.png  used on input li
@@ -1061,7 +1061,7 @@ Overfull \hbox (3.16287pt too wide) in paragraph at lines 180--181
 
 [6 <./images/arsitektur/contoh_anchor.jpeg> <./images/rumus/training_loss.png> 
 <./images/rumus/regression_target.png (PNG copy)>]
-<./images/rumus/regression_target_2.png, id=188, 657.45625pt x 24.09pt>
+<./images/rumus/regression_target_2.png, id=193, 657.45625pt x 24.09pt>
 File: ./images/rumus/regression_target_2.png Graphic file (type png)
 <use ./images/rumus/regression_target_2.png>
 Package pdftex.def Info: ./images/rumus/regression_target_2.png  used on input 
@@ -1072,7 +1072,7 @@ Overfull \hbox (3.16287pt too wide) in paragraph at lines 187--188
  [][] 
  []
 
-<./images/arsitektur/full_architecture.jpeg, id=189, 1007.765pt x 842.14626pt>
+<./images/arsitektur/full_architecture.jpeg, id=194, 1007.765pt x 842.14626pt>
 File: ./images/arsitektur/full_architecture.jpeg Graphic file (type jpg)
 <use ./images/arsitektur/full_architecture.jpeg>
 Package pdftex.def Info: ./images/arsitektur/full_architecture.jpeg  used on in
@@ -1085,7 +1085,7 @@ Overfull \hbox (3.16287pt too wide) in paragraph at lines 194--195
 
 [7 <./images/rumus/regression_target_2.png (PNG copy)> <./images/arsitektur/ful
 l_architecture.jpeg>]
-<./images/arsitektur/contoh_hasil.png, id=198, 783.92876pt x 416.55624pt>
+<./images/arsitektur/contoh_hasil.png, id=203, 783.92876pt x 416.55624pt>
 File: ./images/arsitektur/contoh_hasil.png Graphic file (type png)
 <use ./images/arsitektur/contoh_hasil.png>
 Package pdftex.def Info: ./images/arsitektur/contoh_hasil.png  used on input li
@@ -1102,7 +1102,7 @@ Overfull \hbox (2.49783pt too wide) in paragraph at lines 231--232
 -liki ke-ung-gu-lan masing-masing. 
  []
 
-<./images/arsitektur/Sequential Model.png, id=208, 507.8975pt x 440.64626pt>
+<./images/arsitektur/Sequential Model.png, id=213, 507.8975pt x 440.64626pt>
 File: ./images/arsitektur/Sequential Model.png Graphic file (type png)
 <use ./images/arsitektur/Sequential Model.png>
 Package pdftex.def Info: ./images/arsitektur/Sequential Model.png  used on inpu
@@ -1113,7 +1113,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
-<./images/arsitektur/Sequential with Postprocessing.png, id=209, 507.8975pt x 4
+<./images/arsitektur/Sequential with Postprocessing.png, id=214, 507.8975pt x 4
 40.64626pt>
 File: ./images/arsitektur/Sequential with Postprocessing.png Graphic file (type
  png)
@@ -1126,7 +1126,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
-<../demo/Results/implementation/raw_prediction_nms0_labeled.png, id=216, 486.31
+<../demo/Results/implementation/raw_prediction_nms0_labeled.png, id=221, 486.31
 688pt x 386.19281pt>
 File: ../demo/Results/implementation/raw_prediction_nms0_labeled.png Graphic fi
 le (type png)
@@ -1136,7 +1136,7 @@ eled.png  used on input line 262.
 (pdftex.def)             Requested size: 250.93842pt x 199.27159pt.
 [10 <./images/arsitektur/Sequential with Postprocessing.png (PNG copy)> <../dem
 o/Results/implementation/raw_prediction_nms0_labeled.png (PNG copy)>]
-<../demo/Results/implementation/with_nms0.png, id=223, 482.55281pt x 386.19281p
+<../demo/Results/implementation/with_nms0.png, id=228, 482.55281pt x 386.19281p
 t>
 File: ../demo/Results/implementation/with_nms0.png Graphic file (type png)
 <use ../demo/Results/implementation/with_nms0.png>
@@ -1144,81 +1144,86 @@ Package pdftex.def Info: ../demo/Results/implementation/with_nms0.png  used on
 input line 281.
 (pdftex.def)             Requested size: 250.93842pt x 200.8273pt.
  [11 <../demo/Results/implementation/with_nms0.png>]
-<./images/implementasi/thumbnail.png, id=230, 1445.4pt x 813.0375pt>
+<./images/grafik_loss.png, id=235, 393.47pt x 262.9825pt>
+File: ./images/grafik_loss.png Graphic file (type png)
+<use ./images/grafik_loss.png>
+Package pdftex.def Info: ./images/grafik_loss.png  used on input line 302.
+(pdftex.def)             Requested size: 301.1261pt x 201.2612pt.
+<./images/implementasi/thumbnail.png, id=236, 1445.4pt x 813.0375pt>
 File: ./images/implementasi/thumbnail.png Graphic file (type png)
 <use ./images/implementasi/thumbnail.png>
 Package pdftex.def Info: ./images/implementasi/thumbnail.png  used on input lin
-e 301.
+e 312.
 (pdftex.def)             Requested size: 301.1261pt x 169.37825pt.
-<./images/benchmark/hasil1.png, id=232, 469.755pt x 81.30376pt>
+<./images/benchmark/hasil1.png, id=238, 469.755pt x 81.30376pt>
 File: ./images/benchmark/hasil1.png Graphic file (type png)
 <use ./images/benchmark/hasil1.png>
-Package pdftex.def Info: ./images/benchmark/hasil1.png  used on input line 311.
+Package pdftex.def Info: ./images/benchmark/hasil1.png  used on input line 322.
 
 (pdftex.def)             Requested size: 289.97638pt x 50.18768pt.
-<./images/benchmark/hasil2.png, id=233, 580.41844pt x 79.79813pt>
+ [12 <./images/grafik_loss.png> <./images/implementasi/thumbnail.png>]
+<./images/benchmark/hasil2.png, id=247, 580.41844pt x 79.79813pt>
 File: ./images/benchmark/hasil2.png Graphic file (type png)
 <use ./images/benchmark/hasil2.png>
-Package pdftex.def Info: ./images/benchmark/hasil2.png  used on input line 317.
+Package pdftex.def Info: ./images/benchmark/hasil2.png  used on input line 328.
 
 (pdftex.def)             Requested size: 365.0456pt x 50.18768pt.
- [12 <./images/implementasi/thumbnail.png> <./images/benchmark/hasil1.png> <./i
-mages/benchmark/hasil2.png>]
-<./images/implementasi/test.jpg, id=244, 4175.6pt x 3131.7pt>
+<./images/implementasi/test.jpg, id=248, 4175.6pt x 3131.7pt>
 File: ./images/implementasi/test.jpg Graphic file (type jpg)
 <use ./images/implementasi/test.jpg>
-Package pdftex.def Info: ./images/implementasi/test.jpg  used on input line 339
+Package pdftex.def Info: ./images/implementasi/test.jpg  used on input line 350
 .
 (pdftex.def)             Requested size: 401.50146pt x 301.09853pt.
 
-Overfull \hbox (3.16287pt too wide) in paragraph at lines 339--340
+Overfull \hbox (3.16287pt too wide) in paragraph at lines 350--351
  [][] 
  []
 
 
-Overfull \hbox (2.04753pt too wide) in paragraph at lines 336--341
+Overfull \hbox (2.04753pt too wide) in paragraph at lines 347--352
 []\OT1/ptm/m/n/10 Ketika akan mengim-ple-men-tasikan model ini maka in-fras-tru
 k-tur atau alat yang dibu-tuhkan adalah
  []
 
 
-Overfull \hbox (0.77838pt too wide) in paragraph at lines 336--341
+Overfull \hbox (0.77838pt too wide) in paragraph at lines 347--352
 \OT1/ptm/m/n/10 se-ba-gai alat un-tuk menghubungkan cctv den-gan mon-i-tor dan 
 men-jadi tem-pat un-tuk model melakukan
  []
 
-[13 <./images/implementasi/test.jpg>] [14]
-Overfull \hbox (11.47025pt too wide) in paragraph at lines 345--345
+[13 <./images/benchmark/hasil1.png> <./images/benchmark/hasil2.png>] [14 <./ima
+ges/implementasi/test.jpg>]
+Overfull \hbox (11.47025pt too wide) in paragraph at lines 356--356
 []\OT1/ptm/m/n/10 N. Zu-raya. \OT1/ptm/m/it/10 Tiga Dampak Be-sar Pan-demi Covi
 d-19 bagi Ekonomi RI\OT1/ptm/m/n/10 . \OT1/ptm/m/sc/10 url\OT1/ptm/m/n/10 : []$
 \OT1/cmtt/m/n/10 https : / / republika .
  []
 
 
-Overfull \hbox (34.1426pt too wide) in paragraph at lines 345--345
+Overfull \hbox (34.1426pt too wide) in paragraph at lines 356--356
 []\OT1/ptm/m/n/10 Shilpa Ananth. \OT1/ptm/m/it/10 Faster R-CNN for ob-ject de-t
 ec-tion\OT1/ptm/m/n/10 . Aug. 2019. \OT1/ptm/m/sc/10 url\OT1/ptm/m/n/10 : []$\O
 T1/cmtt/m/n/10 https : / / towardsdatascience .
  []
 
 [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
  (test.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 346.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 346.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
 Package rerunfilecheck Info: File `test.out' has not changed.
-(rerunfilecheck)             Checksum: B9937F603A39AB545B7B4881D4FC11A6;1552.
+(rerunfilecheck)             Checksum: 5FB80EE7CB86ADF61D69CEA38EADFCC0;1613.
 Package logreq Info: Writing requests to 'test.run.xml'.
 \openout1 = `test.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 346.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 357.
  ) 
 Here is how much of TeX's memory you used:
- 24357 strings out of 481212
- 481272 string characters out of 2906442
- 1107607 words of memory out of 3000000
- 39433 multiletter control sequences out of 15000+200000
+ 24367 strings out of 481212
+ 481474 string characters out of 2906442
+ 1107606 words of memory out of 3000000
+ 39439 multiletter control sequences out of 15000+200000
  562421 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,9n,60p,1237b,1261s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1231,9 +1236,9 @@ w/times/utmb8a.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw
 /times/utmbi8a.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw
 /times/utmr8a.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on test.pdf (16 pages, 3993588 bytes).
+Output written on test.pdf (16 pages, 4002532 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
- 282 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 322 PDF objects out of 1000 (max. 8388607)
+ 74 named destinations out of 1000 (max. 500000)
+ 295 words of extra memory for PDF output out of 10000 (max. 10000000)
 
