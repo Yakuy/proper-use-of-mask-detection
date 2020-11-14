@@ -47,6 +47,34 @@
       \endverb
       \keyw{dampak}
     \endentry
+    \entry{angga}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3afe414478c1266788ffa9929060761b}{%
+           family={Indrawan},
+           familyi={I\bibinitperiod},
+           given={Angga},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3afe414478c1266788ffa9929060761b}
+      \strng{fullhash}{3afe414478c1266788ffa9929060761b}
+      \strng{bibnamehash}{3afe414478c1266788ffa9929060761b}
+      \strng{authorbibnamehash}{3afe414478c1266788ffa9929060761b}
+      \strng{authornamehash}{3afe414478c1266788ffa9929060761b}
+      \strng{authorfullhash}{3afe414478c1266788ffa9929060761b}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(2020)}
+      \field{title}{BNPB Ingatkan Masyarakat Pakai Masker dengan Benar}
+      \verb{urlraw}
+      \verb http://cnn.id/556939
+      \endverb
+      \verb{url}
+      \verb http://cnn.id/556939
+      \endverb
+      \keyw{dampak}
+    \endentry
     \entry{larxel_2020}{misc}{}
       \name{author}{1}{}{%
         {{hash=0688ee72bc717ab25bf0619f37cf1ce7}{%
@@ -59,8 +87,8 @@
       \strng{authorbibnamehash}{0688ee72bc717ab25bf0619f37cf1ce7}
       \strng{authornamehash}{0688ee72bc717ab25bf0619f37cf1ce7}
       \strng{authorfullhash}{0688ee72bc717ab25bf0619f37cf1ce7}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Kaggle}
@@ -136,8 +164,8 @@
       \strng{editorbibnamehash}{f981a0b37ac43bd0fc3784cbcce306be}
       \strng{editornamehash}{f981a0b37ac43bd0fc3784cbcce306be}
       \strng{editorfullhash}{95e40444732d7905041fa015b18cfa44}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Advances in Neural Information Processing Systems}
@@ -167,8 +195,8 @@
       \strng{authorbibnamehash}{066ddd75b9a904f4c23d2f87495b909b}
       \strng{authornamehash}{066ddd75b9a904f4c23d2f87495b909b}
       \strng{authorfullhash}{066ddd75b9a904f4c23d2f87495b909b}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computer Vision Metrics}
@@ -199,8 +227,8 @@
       \strng{authorbibnamehash}{da170058301d309cfc572383f39815a1}
       \strng{authornamehash}{da170058301d309cfc572383f39815a1}
       \strng{authorfullhash}{da170058301d309cfc572383f39815a1}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9781509007745}
@@ -223,8 +251,8 @@
       \strng{authorbibnamehash}{36eea0e60e8fcec12171375e8e4dafe1}
       \strng{authornamehash}{36eea0e60e8fcec12171375e8e4dafe1}
       \strng{authorfullhash}{36eea0e60e8fcec12171375e8e4dafe1}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{ISBN 1-85669-420-8}
@@ -245,8 +273,8 @@
       \strng{authorbibnamehash}{d2f67141bf23d1a412031a0114059d5d}
       \strng{authornamehash}{d2f67141bf23d1a412031a0114059d5d}
       \strng{authorfullhash}{d2f67141bf23d1a412031a0114059d5d}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}

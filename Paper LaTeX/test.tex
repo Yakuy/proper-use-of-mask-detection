@@ -44,7 +44,7 @@
       {
       	\LARGE \bfseries MAKALAH}\\
       [0.5cm]
-      {\Large Sistem Pembantu Deteksi Penggunaan Masker yang Baik dan Benar Menggunakan Object Detection Faster R-CNN}\\
+      {\Large Sistem Pembantu Deteksi Penggunaan Masker dengan Benar\\Menggunakan Object Detection Faster R-CNN}\\
           
       \vspace{2cm}
 
@@ -84,16 +84,19 @@
   \newpage
   \pagenumbering{arabic}
   \textbf{Abstrak.} 
+  \par Pandemi COVID-19 membawa banyak dampak negatif bagi Indonesia dan seluruh dunia. Penggunaan masker merupakan salah satu cara efektif untuk mengurangi angka penyebaran COVID-19. Kami mengusulkan penggunaan model Faster R-CNN untuk mendeteksi penggunaan masker pada citra foto atau video. Model dilatih dengan dataset 853 gambar kumpulan orang yang digolongkan menjadi 3 kelas : menggunakan masker, tidak menggunakan masker, dan penggunaan masker tidak benar. Hasil proses pelatihan menghasilkan multi-task loss sebesar 22.4 dengan kecepatan klasifikasi 3.10 gambar per detik. Model sudah dapat mendeteksi penggunaan masker dengan efektif, sehingga model diharapkan dapat diimplementasikan untuk mendeteksi penggunaan masker dari rekaman CCTV dan memberi peringatan bila ada orang yang tidak memakai masker.
   \newpage
   \tableofcontents
   \newpage
-  \section{Pendahuluan}
+  \section{Pendahuluan} 
   	\subsection{Latar Belakang}
 	  	Meskipun berbagai penanganan sudah dilakukan tetapi hingga hari ini jumlah kasus COVID-19 terus meningkat. Jumlah kasus total COVID-19 di seluruh dunia sudah mencapai lebih dari 48 juta kasus, dengan lebih dari 1,2 juta kematian akibat COVID-19. Kasus COVID-19 di Indonesia sudah mencapai lebih dari 400 ribu dengan lebih dari 14 ribu kematian. Dampak negatif dari pandemi COVID-19 ini sangat terasa di Indonesia. Direktur Jenderal Pajak Kementerian Keuangan (Kemenkeu) Suryo Utomo membagi dampak pandemi COVID-19 menjadi tiga garis besar \cite{zuraya}. Dampak pertama adalah membuat konsumsi rumah tangga atau daya beli yang merupakan penopang 60 persen terhadap ekonomi jatuh cukup dalam. Hal ini dibuktikan dengan data dari BPS yang mencatatkan bahwa konsumsi rumah tangga turun dari 5,02 persen pada kuartal I 2019 ke 2,84 persen pada kuartal I tahun ini. Dampak kedua yaitu pandemi menimbulkan adanya ketidakpastian yang berkepanjangan sehingga investasi ikut melemah dan berimplikasi pada terhentinya usaha. Dampak ketiga adalah seluruh dunia mengalami pelemahan ekonomi sehingga menyebabkan harga komoditas turun dan ekspor Indonesia ke beberapa negara juga terhenti.
 	  	
-	  	\par Dengan melemahnya ekonomi di Indonesia ini, banyak perusahaan juga sudah mulai untuk membuka kembali bisnis mereka seperti semula. Berbagai upaya pengawasan pun dilakukan agar setiap orang dapat beraktivitas seperti semula dengan aman tanpa adanya ketakutan tertular COVID-19. Tetapi meskipun berbagai cara pengawasan sudah dilakukan, masih banyak orang yang tidak mematuhi aturan dan tetap beraktivitas seperti biasa. Perlunya banyak pengawasan untuk memperingatkan kembali aturan yang ada di era \textit{new normal} ini adalah salah satu cara agar semua dapat beraktivitas kembali seperti semula serta mengurangi resiko tertular COVID-19.
+	  	\par Dengan melemahnya ekonomi di Indonesia ini, banyak perusahaan sudah mulai mencoba untuk membuka kembali bisnis mereka seperti semula. Berbagai upaya pengawasan pun dilakukan agar setiap orang dapat beraktivitas seperti semula dengan aman tanpa adanya ketakutan tertular COVID-19. Tetapi meskipun berbagai cara pengawasan sudah dilakukan, masih banyak orang yang tidak mematuhi aturan dan tetap beraktivitas seperti biasa. Perlunya banyak pengawasan untuk memperingatkan kembali aturan yang ada di era \textit{new normal} ini adalah salah satu cara agar semua dapat beraktivitas kembali seperti semula serta mengurangi resiko tertular COVID-19.
 	  	
-	  	\par Tetapi untuk mewujudkan era \textit{new normal} ini dengan baik dan efektif, dibutuhkan pengawasan serta himbauan peraturan era \textit{new normal} ini secara skala besar dan umum sehingga dibutuhkannya banyak sekali tenaga kerja. Namun menggunakan tenaga manusia bukanlah jawaban yang tepat karena tidak efesien serta sangat sulit dan juga menyita banyak waktu apabila tenaga manusia ini mengawasi serta menghimbau setiap orang yang ada.
+		\par Kepala Badan Nasional Penanggulanan Bencana (BNPB) menyampaikan meskipun penggunaan masker bertambah pada era \textit{new normal} ini tetapi tidak semua melakukannya dengan cara yang benar\cite{angga}. Mudah untuk mendeteksi suatu objek seperti masker tetapi sulit merelasikan hubungan untuk mengetahui apakah orang memakai masker dengan benar. Sehingga untuk mewujudkan era \textit{new normal} ini dengan baik dan efektif, dibutuhkan banyak sosialisasi, penyuluhan, pengawasan serta himbauan untuk melakukan prosedur era \textit{new normal} dengan tepat secara besar-besaran. Namun menggunakan tenaga manusia bukanlah jawaban yang tepat karena tidak efisien serta sangat sulit dan juga menyita banyak waktu apabila tenaga manusia ini harus mengawasi serta menghimbau setiap orang yang ada di setiap waktu.
+		
+		
   	\subsection{Rumusan Masalah}
   		Berdasarkan latar belakang tersebut permasalahan utama yang akan ditelusuri ialah :
   		\begin{enumerate}
@@ -128,11 +131,11 @@
 	  	RGB (\textit{Red, Green, Blue}) adalah model warna aditif dimana warna merah, hijau, dan biru ditambahkan bersama dengan berbagai cara untuk mereproduksikan sejumlah besar warna \cite{robert}. Tujuan utama model warna RGB adalah untuk mendeteksi, merepresentasikan, dan menampilkan gambar-gambar di sistem-sistem elektronik.
 	  	\subsubsection{Normalisasi}
 	  	Normalisasi adalah proses yang mengubah kisaran intensitas pixel dan memastikan setiap parameter \textit{input} memiliki ditribusi yang serupa. 
-	  	Tujuan dari normalisasi pada gambar adalah untuk membuat gambar lebih akrab atau terlihat normal bagi indra manusia. Dalam kasus ini, normalisasi dilakukan dengan membagi semua intensitas pixel dalam frame dengan nilai maksimumnya yaitu 255.0.
-	  	\subsubsection{Konversi ke PyTorch \textit{Tensor}}
-	  	PyTorch \textit{Tensor} adalah matriks berdimensi banyak yang mengandung elemen-elemen dengan tipe data yang sama. PyTorch \textit{Tensor} memiliki banyak kemiripan dengan numpy array; keduanya adalah array n-dimensional generik untuk digunakan untuk komputasi numerik. Perbedaan utamanya adalah PyTorch \textit{Tensor} dapat dijalankan pada CPU atau GPU.
+	  	Tujuan dari normalisasi pada gambar adalah untuk membuat gambar lebih akrab atau terlihat normal bagi indra manusia. Dalam kasus ini, normalisasi dilakukan dengan membagi semua intensitas pixel dalam frame dengan nilai maksimumnya yaitu 255.
+	  	\subsubsection{Konversi ke PyTorch Tensor}
+	  	PyTorch Tensor adalah matriks berdimensi banyak yang mengandung elemen-elemen dengan tipe data yang sama. PyTorch Tensor memiliki banyak kemiripan dengan numpy array; keduanya adalah array n-dimensional generik untuk digunakan untuk komputasi numerik. Perbedaan utamanya adalah PyTorch Tensor dapat dijalankan pada CPU atau GPU.
 	  	\par
-	  	Model yang digunakan pada makalah ini dijalankan menggunakan GPU, sehingga mengharuskan gambar masukan masuk dalam bentuk PyTorch \textit{Tensor}. Gambar masukan yang masih dalam model warna RGB dikonversi menjadi PyTorch \textit{Tensor} dengan fungsi torchvision.transforms.ToTensor(). 
+	  	Model yang digunakan pada makalah ini dijalankan menggunakan GPU, sehingga mengharuskan gambar masukan masuk dalam bentuk PyTorch Tensor. Gambar masukan yang masih dalam model warna RGB dikonversi menjadi PyTorch Tensor dengan fungsi torchvision.transforms.ToTensor(). 
   	\subsection{Pembelajaran Model}
   	 \subsubsection{Faster R-CNN}
   	 \par Faster R-CNN pertama kali dipublikasikan pada tahun 2015. Jaringan pendeteksi objek sebelum Faster R-CNN menggunakan algoritma proposal wilayah untuk membuat hipotesis lokasi objek. Jaringan seperti R-CNN dan Fast R-CNN menggunakan algoritma berbasis CPU seperti Algoritma \textit{Selective Search} yang membutuhkan waktu sekitar 2 detik untuk setiap gambar. Jaringan Faster R-CNN memperbaiki masalah ini dengan menggunakan convolutional network untuk menghasilkan proposal wilayah. Perubahan ini mengurangi waktu penghitungan proposal wilayah dari 2 detik menjadi 10 militdetik dan meningkatkan representasi fitur. Faster R-CNN terdiri dari \textit{detection pipeline} yang menggunakan RPN sebagai algoritma proposal wilayah dan Fast R-CNN sebagai jaringan detektor.\cite{shilpa_2020}
@@ -255,7 +258,7 @@
   		\caption{Program WebCam Pendeteksi Masker dengan Post-processing Flowchart}
 	\end{figure}
 	
-	Kami mengusulkan program menggunakan post-processing \textit{non-maximum suppression} untuk memperjelas prediksi yang memiliki \textit{overlapping bounding box} dengan mengeliminasikan atau tidak memakai prediksi yang memiliki skor rendah dalam kotak yang sama. Hal ini terjadi karena perbedaan orang "memakai masker", "tidak memakai masker", dan "tidak memakai masker dengan baik" memiliki beberapa fitur yang sama seperti memiliki mata, bentuk wajah hal ini menyebabkan label terdeteksi tetapi memiliki skor yang rendah dan sebaiknya tidak ditampilkan.\\
+	Kami mengusulkan program menggunakan post-processing \textit{non-maximum suppression} untuk memperjelas prediksi yang memiliki \textit{overlapping bounding box} dengan mengeliminasikan atau tidak memakai prediksi yang memiliki skor rendah dalam kotak yang sama. Hal ini terjadi karena perbedaan orang menggunakan masker, tidak menggunakan masker, dan penggunaan masker tidak benar memiliki beberapa fitur yang sama seperti memiliki mata, bentuk wajah hal ini menyebabkan label terdeteksi tetapi memiliki skor yang rendah dan sebaiknya tidak ditampilkan.\\
 
 	\begin{figure}[H]
 		\centering
@@ -293,6 +296,10 @@
 	\end{table}
 	
   \newpage
+
+
+
+
   \section{Hasil}
   
   \subsection{Fungsi Loss}
@@ -303,13 +310,13 @@
   	\caption{Grafik penurunan fungsi loss pada proses pelatihan}
   \end{figure}
   
-  \par \textit{Training loss} yang digunakan adalah \textit{multi-task loss} dengan rumus yang sudah diberikan pada bagian penjelasan Faster R-CNN. \textit{Multi-task loss} merupakan gabungan dari \textit{classification loss} (\textit{los loss} dari dua kelas objek vs bukan objek) serta \textit{regression loss} (\textit{log loss} dari titik tengah dan ukuran kotak prediksi dan \textit{groundtruth}). Terdapat penurunan loss signifikan dari epoch 0 sampai 10, lalu mulai mendatar dari epoch 11 sampai 25.
+  \par \textit{Training loss} yang digunakan adalah \textit{multi-task loss} dengan rumus yang sudah diberikan pada bagian penjelasan Faster R-CNN. \textit{Multi-task loss} merupakan gabungan dari \textit{classification loss} (\textit{log loss} dari dua kelas objek vs bukan objek) serta \textit{regression loss} (\textit{log loss} dari titik tengah dan ukuran kotak prediksi dan \textit{groundtruth}). Terdapat penurunan loss signifikan dari epoch 0 sampai 10, lalu mulai mendatar dari epoch 11 sampai 25.
   
   \subsection{Hasil Program}
   
   \begin{figure}[H]
 	\centering
-	\includegraphics[width=300px]{./images/implementasi/thumbnail.png}
+	\includegraphics[width=400px]{./images/implementasi/hasil1.png}
 	\caption{Hasil Video Demo dapat dilihat selengkapnya di \href{https://youtu.be/dnhFLPc0pXI}{youtu.be/dnhFLPc0pXI}}
   \end{figure}
   \par Hasil dari pembelajaran model Faster R-CNN sudah sangat baik dapat membedakan orang yang menggunakan masker dengan benar atau tidak memakai masker. Hasil model juga dapat mengeneralisasi dengan baik, berdasarkan dari hasil program model masih dapat melakukan \textit{object detection} pengguna masker yang belum pernah dilihat. 
@@ -320,13 +327,13 @@
   \begin{figure}[H]
 	\centering
 	\includegraphics[height=50px]{benchmark/hasil1.png}
-	\caption{\textit{screenshot hasil benchmark} dari Program WebCam.}
+	\caption{\textit{screenshot} hasil performa dari Program WebCam.}
   \end{figure}
 
   \begin{figure}[H]
 	\centering
 	\includegraphics[height=50px]{benchmark/hasil2.png}
-	\caption{\textit{screenshot hasil benchmark} dari Program WebCam dengan Post-processing (nms).}
+	\caption{\textit{screenshot} hasil performa dari Program WebCam dengan Post-processing (nms).}
   \end{figure}
 
   \begin{table}[H]
@@ -341,17 +348,27 @@
 
   Dengan menggunakan Nvidia GTX 960 2GB dan Intel® Core™ i5-3470 Processor, hasil \textit{benchmark} menunjukan Faster R-CNN dapat dengan cepat memprediksi input walaupun dengan GPU yang relatif lama. Ketika menggunakan Post-processing program harus melakukan komputasi fungsi tambahan membuat rata-rata turun tetapi tidak terlalu signifikan atau sekitar -1.58\% dari program awal. 
 
-  \section{Kesimpulan}
-  	\par Berdasarkan percobaan yang telah kami lakukan, model kami dapar mengklasifikasikan gambar sebanyak 3 gambar setiap detiknya. Hasil ini sudah cukup bagus mengingta hardwar yang kami gunakan termasuk dalam hardware yang sudah cukup lama, dengan menggunakan hardware yang lebih baru lagi maka model kami akan mendapatkan hasil yang lebih baik lagi. Metode yang kami gunakan untuk masalah dalam makalah ini mencakup pengumpulan data, prapemrosesan, model Faster R-CNN, dan implementasi. Langkah-langkah prapemrosesan terdiri dari konversi warna ke RGB, normalisasi, dan konversi ke PyTorch Tensor.
-  	
-  	\par Ketika akan mengimplementasikan model ini maka infrastruktur atau alat yang dibutuhkan adalah sebuah cctv, minimal satu buah monitor, dan sebuah komputer. Pada hal ini komputer akan berguna sebagai alat untuk menghubungkan cctv dengan monitor dan menjadi tempat untuk model melakukan prediksi kepada gambar input. Kemudian cctv akan berguna menjadi alat untuk mendapatkan gambar input yang kemudian akan diprediksi oleh model. Cctv yang digunakan akan dihubungkan langsung dengan komputer dan gambar input dari cctv akan diproses frame by frame oleh model (Untuk sementara, tolong yg baca ingetin saya edit ini). Setelah itu monitor juga akan dihubungkan dengan komputer, monitor digunakan untuk menampilkan hasil dari input yang diambil dari cctv yang sudah didapatkan hasil prediksinya (ini juga). 
+	\section{Kesiapan Infrastruktur}
+	\par Untuk mengimplementasikan model ini infrastruktur atau alat yang dibutuhkan adalah sebuah CCTV, monitor, dan komputer. Pada hal ini komputer akan berguna sebagai alat untuk menghubungkan CCTV dengan monitor dan menjadi tempat untuk model melakukan prediksi kepada gambar input. Kemudian CCTV akan digunakan menjadi alat untuk mendapatkan gambar input yang kemudian akan diprediksi oleh model. CCTV yang digunakan akan dihubungkan langsung dengan komputer dan gambar input dari CCTV akan diproses frame by frame oleh model. Monitor akan menampilkan hasil prediksi yang telah diproses oleh komputer.
   	\begin{figure}[H]
   		\centering
   		\includegraphics[width=400px]{implementasi/test.jpg}
   		\caption{Visualisasi Implementasi}
   	\end{figure}
-	\par Untuk jumlah monitor sendiri tidak terbatas pada satu monitor saja, jumlah monitor dapat disesuaikan dan ditempatkan menyesuaikan dengan kebutuhan pada masing-masing tempat. Dalam monitor nanti gambar yang ditampilkan berdasarkan hasil prediksi setiap orang yang tertangkap dalam cctv akan diberikan bounding box sesuai dengan kategori yang cocok dengan mereka. Warna dari box akan menunjukkan label berdasakan warna, yaitu hijau untuk orang yang tidak menggunakan masker, biru untuk orang yang menggunakan masker, dan merah untuk orang yang menggunakan masker secara tidak benar. Lalu jika dalam monitor terdapat orang-orang yang tidak menggunakan masker atau menggunakan masker dengan tidak benar maka pengawas/petugas yang berjaga disekitar dapat menegur orang-orang tersebut sesuai dengan kebijakan pada masing-masing tempat.
+	\par Untuk jumlah perangkat sendiri tidak terbatas pada satu perangkat saja, jumlah perangkat dapat disesuaikan dan ditempatkan menyesuaikan dengan kebutuhan pada masing-masing tempat. Dalam monitor nanti gambar yang ditampilkan berdasarkan hasil prediksi setiap orang yang tertangkap dalam CCTV akan diberikan bounding box sesuai dengan kategori yang cocok dengan mereka. Warna dari box akan menunjukkan label berdasakan warna, warna dapat bebas dipilih dalam percobaan ini kami memakai warna hijau untuk orang yang tidak menggunakan masker, biru untuk orang yang menggunakan masker, dan merah untuk orang yang menggunakan masker secara tidak benar. Lalu jika dalam monitor terdapat orang-orang yang tidak menggunakan masker atau menggunakan masker dengan tidak benar maka dapat ditindak lanjuti seperti pengawas/petugas yang berjaga disekitar dapat menegur orang-orang tersebut sesuai dengan kebijakan pada masing-masing tempat.
+
+
+  	\section{Kesimpulan}
+	  \par Berdasarkan percobaan yang telah kami lakukan, model kami mencapai multi-task loss 22.4 dapat mengklasifikasikan gambar dengan kecepatan 3.10 gambar setiap detiknya. Hasil ini sudah cukup baik mengingat hardware yang kami gunakan termasuk dalam hardware yang sudah cukup lama, dengan menggunakan hardware yang memakai teknologi terbaru maka, kami yakin model kami akan mendapatkan hasil yang lebih baik lagi. Metode yang kami gunakan untuk masalah dalam makalah ini mencakup pengumpulan data, prapemrosesan, model Faster R-CNN, dan implementasi. Langkah-langkah prapemrosesan terdiri dari konversi warna ke RGB, normalisasi, dan konversi ke PyTorch Tensor.
+	  
+	  \par Hasil model ini kami harapkan dapat membantu tenaga manusia seperti pengawas/ petugas untuk dapat secara efisien menegakkan serta memperingatkan selalu penggunaan masker yang benar di tempat umum supaya era \textit{new normal} dapat dengan lancar terwujudkan. Kami juga berharap terjadinya peningkatan kesadaran penggunaan masker yang benar pada masyarakat.
+
+	
+  	
   \section{Lampiran}
+  \noindent Hasil, kode program serta dokumentasi dapat ditemukan pada pranala berikut\\
+  \href{https://github.com/Yakuy/Codig-3.0}{GitHub.com/Yakuy/Codig-3.0}\\
+
   \newpage
   \printbibliography[title={Referensi}]
 \end{document}

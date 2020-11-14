@@ -1,12 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.25)  14 NOV 2020 03:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.30)  14 NOV 2020 20:48
 entering extended mode
-**./test.tex
-(test.tex
+**"c:/Users/Chrystian/Desktop/Project/Codig-3.0/paper LaTeX/test.tex"
+("c:/Users/Chrystian/Desktop/Project/Codig-3.0/paper LaTeX/test.tex"
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-08-07>
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+L3 programming layer <2020-08-07> ("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+("C:\Program Files\MiKTeX\tex/latex/base\size10.clo"
 File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count168
@@ -20,8 +19,7 @@ File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
+) ("C:\Program Files\MiKTeX\tex/latex/psnfss\mathptmx.sty"
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -56,18 +54,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) ("C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty"
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ ("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+) ("C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty"
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ ("C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty"
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count176
@@ -82,92 +76,67 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layouthoffset=\dimen141
 \Gm@layoutvoffset=\dimen142
 \Gm@dimlist=\toks16
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+ ("C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg")) ("C:\Program Files\MiKTeX\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count179
 \float@exts=\toks17
 \float@box=\box45
 \@float@everytoks=\toks18
 \@floatcapt=\box46
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) ("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ ("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ ("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
-g
+) ("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ ("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen143
 \Gin@req@width=\dimen144
-) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+) ("C:\Program Files\MiKTeX\tex/latex/tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+) ("C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty"
 Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ ("C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty"
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
-sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
-y
+) ("C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ ("C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty"
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.st
-y
+) ("C:\Program Files\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty"
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
-eys.sty
+) ("C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty"
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.st
-y
+) ("C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty"
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) ("C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty"
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.
-sty
+) ("C:\Program Files\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty"
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+) ("C:\Program Files\MiKTeX\tex/latex/auxhook\auxhook.sty"
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+) ("C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty"
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen145
 \Hy@linkcounter=\count180
 \Hy@pagecounter=\count181
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+ ("C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def"
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) ("C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty"
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+) ("C:\Program Files\MiKTeX\tex/generic/etexcmds\etexcmds.sty"
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count182
@@ -179,20 +148,16 @@ Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
 \c@Hy@tempcnt=\count183
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+ ("C:\Program Files\MiKTeX\tex/latex/url\url.sty"
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
 \XeTeXLinkMargin=\dimen146
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+ ("C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty"
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.
-sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ ("C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty"
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count184
 \Field@Width=\dimen147
@@ -206,8 +171,7 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6372.
 Package hyperref Info: PDF/A mode OFF on input line 6377.
 LaTeX Info: Redefining \ref on input line 6417.
 LaTeX Info: Redefining \pageref on input line 6421.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/atbegshi\atbegshi.sty
+ ("C:\Program Files\MiKTeX\tex/generic/atbegshi\atbegshi.sty"
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
 \Hy@abspage=\count185
@@ -215,71 +179,40 @@ Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 \c@Hfootnote=\count187
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+ ("C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def"
 File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/atveryend\atveryend.sty
+ ("C:\Program Files\MiKTeX\tex/latex/atveryend\atveryend.sty"
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
 \Fld@listcount=\count188
 \c@bookmark@seq@number=\count189
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
-check.sty
+ ("C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty"
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqueco
-unter.sty
+ ("C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty"
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip49
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.s
-ty
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
-common.tex
+) ("C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty" ("C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty" ("C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty" ("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex"
 \pgfutil@everybye=\toks19
 \pgfutil@tempdima=\dimen149
 \pgfutil@tempdimb=\dimen150
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
-common-lists.tex))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
-latex.def
+ ("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex")) ("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def"
 \pgfutil@abb=\box47
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/ms\everyshi.sty
+ ("C:\Program Files\MiKTeX\tex/latex/ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.c
-ode.tex
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+)) ("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex" ("C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex")
 Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
 ))
 Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.s
-ty
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.s
-ty
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
-.code.tex
+ ("C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty" ("C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty" ("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex"
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
-code.tex
+ ("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks20
 \pgfkeys@temptoks=\toks21
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysf
-iltered.code.tex
+ ("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks22
 ))
 \pgf@x=\dimen151
@@ -302,35 +235,23 @@ iltered.code.tex
 \t@pgf@tokb=\toks24
 \t@pgf@tokc=\toks25
 \pgf@sys@id@count=\count194
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cf
-g
+ ("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg"
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
 Driver file for pgf: pgfsys-pdftex.def
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
--pdftex.def
+ ("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def"
 File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
--common-pdf.def
+ ("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def"
 File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
-)))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
-softpath.code.tex
+))) ("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfsyssoftpath@smallbuffer@items=\count195
 \pgfsyssoftpath@bigbuffer@items=\count196
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
-protocol.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+)) ("C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ ("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -343,52 +264,18 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex"
 Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
-tex
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.c
-ode.tex
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.c
-ode.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser
-.code.tex
+ ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex" ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex" ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex") ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen161
 \pgfmath@count=\count197
 \pgfmath@box=\box48
 \pgfmath@toks=\toks26
 \pgfmath@stack@operand=\toks27
 \pgfmath@stack@operation=\toks28
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.code.tex
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.basic.code.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.trigonometric.code.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.random.code.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.comparison.code.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.base.code.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.round.code.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.misc.code.tex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.integerarithmetics.code.tex)))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.
-code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex" ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex") ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex") ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex") ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex") ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex") ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex") ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex") ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex"))) ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count198
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.t
-ex)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-points.code.tex
+)) ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex") ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@picminx=\dimen162
 \pgf@picmaxx=\dimen163
@@ -404,133 +291,76 @@ File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@yy=\dimen173
 \pgf@zx=\dimen174
 \pgf@zy=\dimen175
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-pathconstruct.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@path@lastx=\dimen176
 \pgf@path@lasty=\dimen177
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-pathusage.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@shorten@end@additional=\dimen178
 \pgf@shorten@start@additional=\dimen179
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-scopes.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box49
 \pgf@hbox=\box50
 \pgf@layerbox@main=\box51
 \pgf@picture@serial@count=\count199
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-graphicstate.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgflinewidth=\dimen180
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-transformations.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@pt@x=\dimen181
 \pgf@pt@y=\dimen182
 \pgf@pt@temp=\dimen183
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-quick.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-objects.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex"
 File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-pathprocessing.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex"
 File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-arrows.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfarrowsep=\dimen184
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-shade.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen185
 \pgf@sys@shading@range@num=\count266
 \pgf@shadingcount=\count267
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-image.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-external.code.tex
+ ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfexternal@startupbox=\box52
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-layers.code.tex
+)) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-transparency.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex"
 File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-patterns.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex"
 File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-rdf.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex"
 File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodules
-hapes.code.tex
+))) ("C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfnodeparttextbox=\box53
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulep
-lot.code.tex
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
-p-version-0-65.sty
+) ("C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@nodesepstart=\dimen186
 \pgf@nodesepend=\dimen187
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
-p-version-1-18.sty
+) ("C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty"
 Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.st
-y
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
-code.tex))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
-tex))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.c
-ode.tex
+)) ("C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty" ("C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty" ("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex")) ("C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty" ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex")) ("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex"
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
-tex)
+ ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex")
 \pgffor@iter=\dimen188
 \pgffor@skip=\dimen189
 \pgffor@stack=\toks29
 \pgffor@toks=\toks30
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-\tikz.code.tex
+)) ("C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex"
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
-ryplothandlers.code.tex
+ ("C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@plot@mark@count=\count268
 \pgfplotmarksize=\dimen190
@@ -551,52 +381,35 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikznumberofchildren=\count270
 \tikznumberofcurrentchild=\count271
 \tikz@fig@count=\count272
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulem
-atrix.code.tex
+ ("C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfmatrixcurrentrow=\count273
 \pgfmatrixcurrentcolumn=\count274
 \pgf@matrix@numberofcolumns=\count275
 )
 \tikz@expandcount=\count276
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibrarytopaths.code.tex
+ ("C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibraryshapes.geometric.code.tex
+))) ("C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex"
 File: tikzlibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\p
-gflibraryshapes.geometric.code.tex
+ ("C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex"
 File: pgflibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibraryarrows.code.tex
+)) ("C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex"
 File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
-ryarrows.code.tex
+ ("C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex"
 File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \arrowsize=\dimen199
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+)) ("C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.sty"
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+ ("C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty"
 Package: etoolbox 2020/07/15 v2.5i e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count277
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+) ("C:\Program Files\MiKTeX\tex/latex/logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count278
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+ ("C:\Program Files\MiKTeX\tex/latex/logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+)) ("C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@tabx@nest=\count279
@@ -656,8 +469,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \c@mincompwidth=\count322
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def"
 File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
@@ -746,13 +558,12 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip71
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex\blx-compat.def"
 File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def"
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 \c@textcitecount=\count391
 \c@textcitetotal=\count392
@@ -770,22 +581,18 @@ File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx"
 File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bb
-x
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx"
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count400
 \c@bbx:relatedtotal=\count401
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx"
 File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -801,18 +608,16 @@ Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.cfg"
 File: biblatex.cfg 
 ))
 \@quotelevel=\count402
 \@quotereset=\count403
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfm
-ode.def
+ ("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count404
 \l__pdf_internal_box=\box58
-) (test.aux)
+) ("c:/Users\Chrystian\Desktop\Project\Codig-3.0\paper LaTeX\test.aux")
 \openout1 = `test.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -831,10 +636,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-9.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 39.
+ ("C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \big@size=\dimen256
@@ -873,9 +676,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
-i
+("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count405
 \scratchdimen=\dimen257
@@ -888,30 +689,23 @@ i
 \MPnumerator=\count409
 \makeMPintoPDFobject=\count410
 \everyMPtoPDFconversion=\toks32
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
-se.sty
+) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+ ("C:\Program Files\MiKTeX\tex/latex/grfext\grfext.sty"
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 )
 \AtBeginShipoutBox=\box60
 Package hyperref Info: Link coloring OFF on input line 39.
- (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+ ("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+ ("C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty"
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitl
-estring.sty
+) ("C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count411
@@ -919,15 +713,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 39.
 LaTeX Info: Redefining \pageref on input line 39.
 LaTeX Info: Redefining \nameref on input line 39.
- (test.out) (test.out)
+ ("c:/Users\Chrystian\Desktop\Project\Codig-3.0\paper LaTeX\test.out") ("c:/Users\Chrystian\Desktop\Project\Codig-3.0\paper LaTeX\test.out")
 \@outlinefile=\write5
 \openout5 = `test.out'.
 
  ABD: EveryShipout initializing macros
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+ ("C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx"
 File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -937,46 +730,35 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'test.bbl' found.
- (test.bbl)
+ ("c:/Users\Chrystian\Desktop\Project\Codig-3.0\paper LaTeX\test.bbl")
 Package biblatex Info: Reference section=0 on input line 39.
 Package biblatex Info: Reference segment=0 on input line 39.
-<./images//logo/Lambang UGM.jpg, id=102, 341.3553pt x 341.3553pt>
+<./images//logo/Lambang UGM.jpg, id=106, 341.3553pt x 341.3553pt>
 File: ./images//logo/Lambang UGM.jpg Graphic file (type jpg)
 <use ./images//logo/Lambang UGM.jpg>
 Package pdftex.def Info: ./images//logo/Lambang UGM.jpg  used on input line 53.
-
 (pdftex.def)             Requested size: 200.75073pt x 200.752pt.
  [1
 
-{C:/Users/asus/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./images//logo/L
-ambang UGM.jpg>]pdfTeX warning (ext4): destination with the same identifier (na
-me{page.1}) has been already used, duplicate ignored
+{C:/Users/Chrystian/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./images//logo/Lambang UGM.jpg>]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.87   \newpage
-                [1] (test.toc
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 5.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+l.88   \newpage
+                [1] ("c:/Users\Chrystian\Desktop\Project\Codig-3.0\paper LaTeX\test.toc"
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 5.
+ ("C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 5.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 5.
+ ("C:\Program Files\MiKTeX\tex/latex/psnfss\omlztmcm.fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 5.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 5.
+ ("C:\Program Files\MiKTeX\tex/latex/psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 5.
-
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 5.
+ ("C:\Program Files\MiKTeX\tex/latex/psnfss\omxztmcm.fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
@@ -989,256 +771,217 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 \tf@toc=\write6
 \openout6 = `test.toc'.
 
-
-[2]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-07.
- (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+ [2]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 110.
+ ("C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Overfull \hbox (1.45796pt too wide) in paragraph at lines 112--113
-[]\OT1/ptm/m/n/10 Tujuan utama, kami men-gusulkan meng-gu-nakan model Ob-ject D
-e-tec-tion den-gan ar-sitek-tur Faster
+Overfull \hbox (1.45796pt too wide) in paragraph at lines 115--116
+[]\OT1/ptm/m/n/10 Tujuan utama, kami men-gusulkan meng-gu-nakan model Ob-ject De-tec-tion den-gan ar-sitek-tur Faster
  []
 
 [3]
-<./images//sample_dataset.png, id=156, 524.96124pt x 96.86188pt>
+<./images//sample_dataset.png, id=163, 524.96124pt x 96.86188pt>
 File: ./images//sample_dataset.png Graphic file (type png)
 <use ./images//sample_dataset.png>
-Package pdftex.def Info: ./images//sample_dataset.png  used on input line 121.
+Package pdftex.def Info: ./images//sample_dataset.png  used on input line 124.
 (pdftex.def)             Requested size: 401.50146pt x 74.08429pt.
 
-Overfull \hbox (3.16287pt too wide) in paragraph at lines 121--122
+Overfull \hbox (3.16287pt too wide) in paragraph at lines 124--125
  [][] 
  []
 
 [4 <./images//sample_dataset.png>]
-Overfull \hbox (0.26875pt too wide) in paragraph at lines 135--136
-[]\OT1/ptm/m/n/10 Model yang di-gu-nakan pada makalah ini di-jalankan meng-gu-n
-akan GPU, se-hingga meng-haruskan
+Overfull \hbox (0.26875pt too wide) in paragraph at lines 138--139
+[]\OT1/ptm/m/n/10 Model yang di-gu-nakan pada makalah ini di-jalankan meng-gu-nakan GPU, se-hingga meng-haruskan
  []
 
-<./images/arsitektur/RPN.jpeg, id=172, 1053.9375pt x 789.95125pt>
+<./images/arsitektur/RPN.jpeg, id=178, 1053.9375pt x 789.95125pt>
 File: ./images/arsitektur/RPN.jpeg Graphic file (type jpg)
 <use ./images/arsitektur/RPN.jpeg>
-Package pdftex.def Info: ./images/arsitektur/RPN.jpeg  used on input line 142.
+Package pdftex.def Info: ./images/arsitektur/RPN.jpeg  used on input line 145.
 (pdftex.def)             Requested size: 301.1261pt x 225.70496pt.
 
-Overfull \hbox (18.89812pt too wide) in paragraph at lines 148--149
-\OT1/ptm/m/n/10 takkan \OT1/ptm/m/it/10 an-chors \OT1/ptm/m/n/10 pada gam-bar i
-n-put un-tuk se-tiap lokasi pada \OT1/ptm/m/it/10 out-put fea-ture map\OT1/ptm/
-m/n/10 . \OT1/ptm/m/it/10 An-chors \OT1/ptm/m/n/10 mengindikasikan
+Overfull \hbox (18.89812pt too wide) in paragraph at lines 151--152
+\OT1/ptm/m/n/10 takkan \OT1/ptm/m/it/10 an-chors \OT1/ptm/m/n/10 pada gam-bar in-put un-tuk se-tiap lokasi pada \OT1/ptm/m/it/10 out-put fea-ture map\OT1/ptm/m/n/10 . \OT1/ptm/m/it/10 An-chors \OT1/ptm/m/n/10 mengindikasikan
  []
 
-<./images/arsitektur/contoh_anchor.jpeg, id=173, 723.70375pt x 347.2975pt>
+<./images/arsitektur/contoh_anchor.jpeg, id=179, 723.70375pt x 347.2975pt>
 File: ./images/arsitektur/contoh_anchor.jpeg Graphic file (type jpg)
 <use ./images/arsitektur/contoh_anchor.jpeg>
-Package pdftex.def Info: ./images/arsitektur/contoh_anchor.jpeg  used on input 
-line 152.
+Package pdftex.def Info: ./images/arsitektur/contoh_anchor.jpeg  used on input line 155.
 (pdftex.def)             Requested size: 301.1261pt x 144.50732pt.
 [5 <./images/arsitektur/RPN.jpeg>]
-<./images/rumus/training_loss.png, id=180, 846.91406pt x 98.61844pt>
+<./images/rumus/training_loss.png, id=186, 846.91406pt x 98.61844pt>
 File: ./images/rumus/training_loss.png Graphic file (type png)
 <use ./images/rumus/training_loss.png>
-Package pdftex.def Info: ./images/rumus/training_loss.png  used on input line 1
-71.
+Package pdftex.def Info: ./images/rumus/training_loss.png  used on input line 174.
 (pdftex.def)             Requested size: 401.50146pt x 46.75244pt.
 
-Overfull \hbox (3.16287pt too wide) in paragraph at lines 171--172
+Overfull \hbox (3.16287pt too wide) in paragraph at lines 174--175
  [][] 
  []
 
-<./images/rumus/regression_target.png, id=181, 701.62125pt x 32.12pt>
+<./images/rumus/regression_target.png, id=187, 1051.67906pt x 41.4047pt>
 File: ./images/rumus/regression_target.png Graphic file (type png)
 <use ./images/rumus/regression_target.png>
-Package pdftex.def Info: ./images/rumus/regression_target.png  used on input li
-ne 180.
-(pdftex.def)             Requested size: 401.50146pt x 18.3811pt.
+Package pdftex.def Info: ./images/rumus/regression_target.png  used on input line 183.
+(pdftex.def)             Requested size: 401.50146pt x 15.80722pt.
 
-Overfull \hbox (3.16287pt too wide) in paragraph at lines 180--181
+Overfull \hbox (3.16287pt too wide) in paragraph at lines 183--184
  [][] 
  []
 
-[6 <./images/arsitektur/contoh_anchor.jpeg> <./images/rumus/training_loss.png> 
-<./images/rumus/regression_target.png (PNG copy)>]
-<./images/rumus/regression_target_2.png, id=193, 657.45625pt x 24.09pt>
+[6 <./images/arsitektur/contoh_anchor.jpeg> <./images/rumus/training_loss.png> <./images/rumus/regression_target.png>]
+<./images/rumus/regression_target_2.png, id=200, 997.47656pt x 36.135pt>
 File: ./images/rumus/regression_target_2.png Graphic file (type png)
 <use ./images/rumus/regression_target_2.png>
-Package pdftex.def Info: ./images/rumus/regression_target_2.png  used on input 
-line 187.
-(pdftex.def)             Requested size: 401.50146pt x 14.71176pt.
+Package pdftex.def Info: ./images/rumus/regression_target_2.png  used on input line 190.
+(pdftex.def)             Requested size: 401.50146pt x 14.54471pt.
 
-Overfull \hbox (3.16287pt too wide) in paragraph at lines 187--188
+Overfull \hbox (3.16287pt too wide) in paragraph at lines 190--191
  [][] 
  []
 
-<./images/arsitektur/full_architecture.jpeg, id=194, 1007.765pt x 842.14626pt>
+<./images/arsitektur/full_architecture.jpeg, id=201, 1007.765pt x 842.14626pt>
 File: ./images/arsitektur/full_architecture.jpeg Graphic file (type jpg)
 <use ./images/arsitektur/full_architecture.jpeg>
-Package pdftex.def Info: ./images/arsitektur/full_architecture.jpeg  used on in
-put line 194.
+Package pdftex.def Info: ./images/arsitektur/full_architecture.jpeg  used on input line 197.
 (pdftex.def)             Requested size: 401.50146pt x 335.51613pt.
 
-Overfull \hbox (3.16287pt too wide) in paragraph at lines 194--195
+Overfull \hbox (3.16287pt too wide) in paragraph at lines 197--198
  [][] 
  []
 
-[7 <./images/rumus/regression_target_2.png (PNG copy)> <./images/arsitektur/ful
-l_architecture.jpeg>]
-<./images/arsitektur/contoh_hasil.png, id=203, 783.92876pt x 416.55624pt>
+[7 <./images/rumus/regression_target_2.png> <./images/arsitektur/full_architecture.jpeg>]
+<./images/arsitektur/contoh_hasil.png, id=211, 783.92876pt x 416.55624pt>
 File: ./images/arsitektur/contoh_hasil.png Graphic file (type png)
 <use ./images/arsitektur/contoh_hasil.png>
-Package pdftex.def Info: ./images/arsitektur/contoh_hasil.png  used on input li
-ne 217.
+Package pdftex.def Info: ./images/arsitektur/contoh_hasil.png  used on input line 220.
 (pdftex.def)             Requested size: 401.50146pt x 213.3498pt.
 
-Overfull \hbox (3.16287pt too wide) in paragraph at lines 217--218
+Overfull \hbox (3.16287pt too wide) in paragraph at lines 220--221
  [][] 
  []
 
 [8 <./images/arsitektur/contoh_hasil.png (PNG copy)>]
-Overfull \hbox (2.49783pt too wide) in paragraph at lines 231--232
-[]\OT1/ptm/m/n/10 Dalam per-cobaan ini kami mem-buat 2 model pro-gram yang memi
--liki ke-ung-gu-lan masing-masing. 
+Overfull \hbox (2.49783pt too wide) in paragraph at lines 234--235
+[]\OT1/ptm/m/n/10 Dalam per-cobaan ini kami mem-buat 2 model pro-gram yang memi-liki ke-ung-gu-lan masing-masing. 
  []
 
-<./images/arsitektur/Sequential Model.png, id=213, 507.8975pt x 440.64626pt>
+<./images/arsitektur/Sequential Model.png, id=221, 507.8975pt x 440.64626pt>
 File: ./images/arsitektur/Sequential Model.png Graphic file (type png)
 <use ./images/arsitektur/Sequential Model.png>
-Package pdftex.def Info: ./images/arsitektur/Sequential Model.png  used on inpu
-t line 235.
+Package pdftex.def Info: ./images/arsitektur/Sequential Model.png  used on input line 238.
 (pdftex.def)             Requested size: 200.75073pt x 174.17102pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
  []
 
-<./images/arsitektur/Sequential with Postprocessing.png, id=214, 507.8975pt x 4
-40.64626pt>
-File: ./images/arsitektur/Sequential with Postprocessing.png Graphic file (type
- png)
+<./images/arsitektur/Sequential with Postprocessing.png, id=222, 507.8975pt x 440.64626pt>
+File: ./images/arsitektur/Sequential with Postprocessing.png Graphic file (type png)
 <use ./images/arsitektur/Sequential with Postprocessing.png>
-Package pdftex.def Info: ./images/arsitektur/Sequential with Postprocessing.png
-  used on input line 254.
+Package pdftex.def Info: ./images/arsitektur/Sequential with Postprocessing.png  used on input line 257.
 (pdftex.def)             Requested size: 200.75073pt x 174.17102pt.
 [9 <./images/arsitektur/Sequential Model.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
-<../demo/Results/implementation/raw_prediction_nms0_labeled.png, id=221, 486.31
-688pt x 386.19281pt>
-File: ../demo/Results/implementation/raw_prediction_nms0_labeled.png Graphic fi
-le (type png)
+<../demo/Results/implementation/raw_prediction_nms0_labeled.png, id=230, 486.31688pt x 386.19281pt>
+File: ../demo/Results/implementation/raw_prediction_nms0_labeled.png Graphic file (type png)
 <use ../demo/Results/implementation/raw_prediction_nms0_labeled.png>
-Package pdftex.def Info: ../demo/Results/implementation/raw_prediction_nms0_lab
-eled.png  used on input line 262.
+Package pdftex.def Info: ../demo/Results/implementation/raw_prediction_nms0_labeled.png  used on input line 265.
 (pdftex.def)             Requested size: 250.93842pt x 199.27159pt.
-[10 <./images/arsitektur/Sequential with Postprocessing.png (PNG copy)> <../dem
-o/Results/implementation/raw_prediction_nms0_labeled.png (PNG copy)>]
-<../demo/Results/implementation/with_nms0.png, id=228, 482.55281pt x 386.19281p
-t>
+[10 <./images/arsitektur/Sequential with Postprocessing.png (PNG copy)> <../demo/Results/implementation/raw_prediction_nms0_labeled.png (PNG copy)>]
+<../demo/Results/implementation/with_nms0.png, id=237, 482.55281pt x 386.19281pt>
 File: ../demo/Results/implementation/with_nms0.png Graphic file (type png)
 <use ../demo/Results/implementation/with_nms0.png>
-Package pdftex.def Info: ../demo/Results/implementation/with_nms0.png  used on 
-input line 281.
+Package pdftex.def Info: ../demo/Results/implementation/with_nms0.png  used on input line 284.
 (pdftex.def)             Requested size: 250.93842pt x 200.8273pt.
  [11 <../demo/Results/implementation/with_nms0.png>]
-<./images/grafik_loss.png, id=235, 393.47pt x 262.9825pt>
+<./images/grafik_loss.png, id=244, 393.47pt x 262.9825pt>
 File: ./images/grafik_loss.png Graphic file (type png)
 <use ./images/grafik_loss.png>
-Package pdftex.def Info: ./images/grafik_loss.png  used on input line 302.
+Package pdftex.def Info: ./images/grafik_loss.png  used on input line 309.
 (pdftex.def)             Requested size: 301.1261pt x 201.2612pt.
-<./images/implementasi/thumbnail.png, id=236, 1445.4pt x 813.0375pt>
-File: ./images/implementasi/thumbnail.png Graphic file (type png)
-<use ./images/implementasi/thumbnail.png>
-Package pdftex.def Info: ./images/implementasi/thumbnail.png  used on input lin
-e 312.
-(pdftex.def)             Requested size: 301.1261pt x 169.37825pt.
-<./images/benchmark/hasil1.png, id=238, 469.755pt x 81.30376pt>
+<./images/implementasi/hasil1.png, id=245, 3011.25pt x 828.09375pt>
+File: ./images/implementasi/hasil1.png Graphic file (type png)
+<use ./images/implementasi/hasil1.png>
+Package pdftex.def Info: ./images/implementasi/hasil1.png  used on input line 319.
+(pdftex.def)             Requested size: 401.50146pt x 110.41054pt.
+
+Overfull \hbox (3.16287pt too wide) in paragraph at lines 319--320
+ [][] 
+ []
+
+<./images/benchmark/hasil1.png, id=247, 469.755pt x 81.30376pt>
 File: ./images/benchmark/hasil1.png Graphic file (type png)
 <use ./images/benchmark/hasil1.png>
-Package pdftex.def Info: ./images/benchmark/hasil1.png  used on input line 322.
-
+Package pdftex.def Info: ./images/benchmark/hasil1.png  used on input line 329.
 (pdftex.def)             Requested size: 289.97638pt x 50.18768pt.
- [12 <./images/grafik_loss.png> <./images/implementasi/thumbnail.png>]
-<./images/benchmark/hasil2.png, id=247, 580.41844pt x 79.79813pt>
+[12 <./images/grafik_loss.png> <./images/implementasi/hasil1.png>]
+<./images/benchmark/hasil2.png, id=256, 580.41844pt x 79.79813pt>
 File: ./images/benchmark/hasil2.png Graphic file (type png)
 <use ./images/benchmark/hasil2.png>
-Package pdftex.def Info: ./images/benchmark/hasil2.png  used on input line 328.
-
+Package pdftex.def Info: ./images/benchmark/hasil2.png  used on input line 335.
 (pdftex.def)             Requested size: 365.0456pt x 50.18768pt.
-<./images/implementasi/test.jpg, id=248, 4175.6pt x 3131.7pt>
+<./images/implementasi/test.jpg, id=257, 4175.6pt x 3131.7pt>
 File: ./images/implementasi/test.jpg Graphic file (type jpg)
 <use ./images/implementasi/test.jpg>
-Package pdftex.def Info: ./images/implementasi/test.jpg  used on input line 350
-.
+Package pdftex.def Info: ./images/implementasi/test.jpg  used on input line 355.
 (pdftex.def)             Requested size: 401.50146pt x 301.09853pt.
 
-Overfull \hbox (3.16287pt too wide) in paragraph at lines 350--351
+Overfull \hbox (3.16287pt too wide) in paragraph at lines 355--356
  [][] 
  []
 
 
-Overfull \hbox (2.04753pt too wide) in paragraph at lines 347--352
-[]\OT1/ptm/m/n/10 Ketika akan mengim-ple-men-tasikan model ini maka in-fras-tru
-k-tur atau alat yang dibu-tuhkan adalah
+Overfull \hbox (8.57904pt too wide) in paragraph at lines 352--357
+\OT1/ptm/m/n/10 CCTV, mon-i-tor, dan kom-puter. Pada hal ini kom-puter akan berguna se-ba-gai alat un-tuk menghubungkan
+ []
+
+[13 <./images/benchmark/hasil1.png> <./images/benchmark/hasil2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 369--371
+
+ []
+
+[14 <./images/implementasi/test.jpg>] [15]
+Overfull \hbox (11.47025pt too wide) in paragraph at lines 373--373
+[]\OT1/ptm/m/n/10 N. Zu-raya. \OT1/ptm/m/it/10 Tiga Dampak Be-sar Pan-demi Covid-19 bagi Ekonomi RI\OT1/ptm/m/n/10 . \OT1/ptm/m/sc/10 url\OT1/ptm/m/n/10 : []$\OT1/cmtt/m/n/10 https : / / republika .
  []
 
 
-Overfull \hbox (0.77838pt too wide) in paragraph at lines 347--352
-\OT1/ptm/m/n/10 se-ba-gai alat un-tuk menghubungkan cctv den-gan mon-i-tor dan 
-men-jadi tem-pat un-tuk model melakukan
+Overfull \hbox (34.1426pt too wide) in paragraph at lines 373--373
+[]\OT1/ptm/m/n/10 Shilpa Ananth. \OT1/ptm/m/it/10 Faster R-CNN for ob-ject de-tec-tion\OT1/ptm/m/n/10 . Aug. 2019. \OT1/ptm/m/sc/10 url\OT1/ptm/m/n/10 : []$\OT1/cmtt/m/n/10 https : / / towardsdatascience .
  []
 
-[13 <./images/benchmark/hasil1.png> <./images/benchmark/hasil2.png>] [14 <./ima
-ges/implementasi/test.jpg>]
-Overfull \hbox (11.47025pt too wide) in paragraph at lines 356--356
-[]\OT1/ptm/m/n/10 N. Zu-raya. \OT1/ptm/m/it/10 Tiga Dampak Be-sar Pan-demi Covi
-d-19 bagi Ekonomi RI\OT1/ptm/m/n/10 . \OT1/ptm/m/sc/10 url\OT1/ptm/m/n/10 : []$
-\OT1/cmtt/m/n/10 https : / / republika .
- []
-
-
-Overfull \hbox (34.1426pt too wide) in paragraph at lines 356--356
-[]\OT1/ptm/m/n/10 Shilpa Ananth. \OT1/ptm/m/it/10 Faster R-CNN for ob-ject de-t
-ec-tion\OT1/ptm/m/n/10 . Aug. 2019. \OT1/ptm/m/sc/10 url\OT1/ptm/m/n/10 : []$\O
-T1/cmtt/m/n/10 https : / / towardsdatascience .
- []
-
-[15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
- (test.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
+[16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 374.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 374.
+ ("c:/Users\Chrystian\Desktop\Project\Codig-3.0\paper LaTeX\test.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 374.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 374.
 Package rerunfilecheck Info: File `test.out' has not changed.
-(rerunfilecheck)             Checksum: 5FB80EE7CB86ADF61D69CEA38EADFCC0;1613.
+(rerunfilecheck)             Checksum: 8611DC049AE88E4E0EFBDC7C2C6103D2;1671.
 Package logreq Info: Writing requests to 'test.run.xml'.
 \openout1 = `test.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 357.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 374.
  ) 
 Here is how much of TeX's memory you used:
- 24367 strings out of 481212
- 481474 string characters out of 2906442
- 1107606 words of memory out of 3000000
- 39439 multiletter control sequences out of 15000+200000
+ 24373 strings out of 481212
+ 475557 string characters out of 2915715
+ 1107647 words of memory out of 3000000
+ 39442 multiletter control sequences out of 15000+200000
  562421 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,9n,60p,1237b,1261s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/
-Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmtt10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/ur
-w/times/utmb8a.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw
-/times/utmbi8a.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw
-/times/utmr8a.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on test.pdf (16 pages, 4002532 bytes).
+ 60i,9n,60p,1294b,1259s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "c:/Users\Chrystian\Desktop\Project\Codig-3.0\paper LaTeX\test.pdf" (17 pages, 4645346 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
- 295 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 338 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 303 words of extra memory for PDF output out of 10000 (max. 10000000)
 
