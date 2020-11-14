@@ -19,7 +19,7 @@ Disusun oleh Tim Yakuy 2, Universitas Gadjah Mada
 | 3 | With Mask Incorrect | 0.2569 |
 | 4 | Without Mask        | 0.2145 |
 #### Hasil prediksi program dengan Post-processing.
-![raw output](./demo/Results/implementation/with_nms0.png)
+![raw output](./demo/Results/implementation/with_nms0.PNG)
 Hasil prediksi program dengan non-maximum suppression.
 | i | Label               |  Score |
 |:-:|---------------------|:------:|
@@ -33,6 +33,7 @@ Hasil prediksi program dengan non-maximum suppression.
 [![Proper Mask Detection with Faster R-CNN WebCam Demo
 ](./demo/Results/implementation/thumbnail.png)](https://www.youtube.com/watch?v=dnhFLPc0pXI)
 [Proper Mask Detection with Faster R-CNN WebCam Demo](https://www.youtube.com/watch?v=dnhFLPc0pXI)
+<br>
 Final Weight (model_with_no_mask.pth) dapat diunduh melalui link [google drive](https://drive.google.com/drive/folders/1foYM6KLFT_eY1_IriE8Wy2UKtfaNRLQh?usp=sharing) 
 
 #### Performa Program
