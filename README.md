@@ -7,7 +7,8 @@ Disusun oleh Tim Yakuy 2, Universitas Gadjah Mada
 - Arief Pujo Arianto (18/430253/PA/18766)
 - Chrystian (18/430257/PA/18770)
 ## Abstrak
-
+Pandemi COVID-19 membawa banyak dampak negatif bagi Indonesia dan seluruh dunia. Penggunaan masker merupakan salah satu cara efektif untuk mengurangi angka penyebaran COVID-19.
+Kami mengusulkan penggunaan model Faster R-CNN untuk mendeteksi penggunaan masker pada citra foto atau video. Model dilatih dengan dataset 853 gambar kumpulan orang yang digolongkan menjadi 3 kelas : menggunakan masker, tidak menggunakan masker, dan penggunaan masker tidak benar. Hasil proses pelatihan menghasilkan multi-task loss sebesar 22.4 dengan kecepatan klasifikasi 3.10 gambar per detik. Model sudah dapat mendeteksi penggunaan masker dengan efektif,sehingga model diharapkan dapat diimplementasikan untuk mendeteksi penggunaan masker dari rekaman CCTV dan memberi peringatan bila ada orang yang tidak memakai masker.
 ## Metode
 ### Implementasi Program
 #### Hasil prediksi program.
@@ -28,7 +29,6 @@ Hasil prediksi program dengan non-maximum suppression.
 
 
 ## Hasil
-
 ### Hasil Program
 [![Proper Mask Detection with Faster R-CNN WebCam Demo
 ](./demo/Results/implementation/thumbnail.png)](https://www.youtube.com/watch?v=dnhFLPc0pXI)
