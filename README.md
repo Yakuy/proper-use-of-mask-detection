@@ -1,8 +1,8 @@
-## Pembantu Deteksi Penggunaan Masker yang Baik dan Benar Menggunakan Object Detection Faster R-CNN
-Untuk Codig 3.0 Data Mining 
-> Peran *data mining* untuk menghadapi kehidupan pada era *new normal*
+## Proper Use of Mask Detection Using Faster R-CNN
+For Codig 3.0 Data Mining with theme
+> The role of data mining to face life in the new normal era
 
-Disusun oleh Tim Yakuy 2, Universitas Gadjah Mada
+Created by Yakuy 2 Team from Universitas Gadjah Mada
 - Ardacandra Subiantoro (18/427572/PA/18532)
 - Arief Pujo Arianto (18/430253/PA/18766)
 - Chrystian (18/430257/PA/18770)
